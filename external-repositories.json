@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "description": "External agent repository configuration",
+  "repositories": [
+    {
+      "name": "awesome-claude-code-subagents",
+      "url": "https://github.com/endfro/awesome-claude-code-subagents",
+      "type": "github",
+      "enabled": true,
+      "priority": 1,
+      "agent_patterns": [
+        "categories/**/*.md"
+      ]
+    },
+    {
+      "name": "claude-code-studio",
+      "url": "https://github.com/endfro/claude-code-studio",
+      "type": "github",
+      "enabled": true,
+      "priority": 1,
+      "agent_patterns": [
+        "agents/**/*.md"
+      ]
+    },
+    {
+      "name": "community-agents",
+      "url": "https://github.com/community/claude-agents",
+      "type": "github",
+      "enabled": true,
+      "priority": 2,
+      "agent_patterns": [
+        "agents/**/*.md"
+      ]
+    }
+  ],
+  "discovery_rules": {
+    "file_patterns": [
+      "*.md",
+      "agents/*.md",
+      "subagents/*.md"
+    ],
+    "required_frontmatter": [
+      "name",
+      "description"
+    ],
+    "quality_thresholds": {
+      "min_description_length": 50,
+      "required_sections": [
+        "When invoked",
+        "checklist"
+      ],
+      "recommended_sections": [
+        "Communication Protocol",
+        "Development Workflow"
+      ]
+    }
+  },
+  "caching": {
+    "enabled": true,
+    "ttl_hours": 24,
+    "cache_directory": ".claude-builder/agent-cache"
+  }
+}

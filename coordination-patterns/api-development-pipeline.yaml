@@ -1,0 +1,58 @@
+name: API Development Pipeline
+description: Standard workflow for API development from design to deployment
+version: "1.0.0"
+
+workflow:
+  phases:
+    - name: design
+      agents: [api-designer, backend-architect]
+      duration: "30-60 minutes"
+      outputs: ["api-specification", "architecture-decisions"]
+      
+    - name: implementation
+      agents: [backend-developer, python-pro]
+      duration: "2-8 hours"
+      inputs: ["api-specification", "architecture-decisions"]
+      outputs: ["api-implementation", "database-models"]
+      
+    - name: testing
+      agents: [test-writer-fixer, api-tester]
+      duration: "1-3 hours"
+      inputs: ["api-implementation"]
+      outputs: ["test-suite", "api-documentation"]
+      
+    - name: optimization
+      agents: [performance-benchmarker, backend-architect]
+      duration: "30-90 minutes"
+      inputs: ["api-implementation", "test-results"]
+      outputs: ["performance-optimizations", "scaling-recommendations"]
+      
+    - name: deployment
+      agents: [devops-automator, sre-engineer]
+      duration: "30-60 minutes"
+      inputs: ["api-implementation", "test-suite"]
+      outputs: ["deployment-pipeline", "monitoring-setup"]
+
+triggers:
+  - "build api"
+  - "create rest api"
+  - "implement backend"
+  - "design api endpoints"
+
+coordination:
+  handoffs:
+    design_to_implementation:
+      context: "API specification, data models, authentication requirements"
+      validation: "Architecture review passed, API specification complete"
+      
+    implementation_to_testing:
+      context: "Working API endpoints, database migrations, environment setup"
+      validation: "All endpoints responding, database schema applied"
+      
+    testing_to_optimization:
+      context: "Test results, coverage metrics, performance baseline"
+      validation: "All tests passing, coverage > 90%"
+      
+    optimization_to_deployment:
+      context: "Performance metrics, optimization recommendations, scaling plan"
+      validation: "Performance targets met, deployment strategy approved"

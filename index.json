@@ -1,0 +1,390 @@
+{
+  "version": "1.0.0",
+  "updated": "2025-09-11T11:30:00Z",
+  "description": "Claude Builder Official Template Repository - Agent Orchestration Environments with Real Agents",
+  "total_agents_available": 154,
+  "templates": [
+    {
+      "name": "python-fastapi-production",
+      "version": "1.0.0",
+      "description": "Production FastAPI backend with comprehensive agent team",
+      "languages": ["python"],
+      "frameworks": ["fastapi"],
+      "complexity": "enterprise",
+      "agents": [
+        "backend-architect",
+        "api-designer", 
+        "test-writer-fixer",
+        "performance-benchmarker",
+        "devops-automator"
+      ],
+      "download_url": "/templates/python-fastapi-production.zip",
+      "coordination_patterns": [
+        "api-development-pipeline",
+        "performance-optimization",
+        "deployment-automation"
+      ],
+      "triggers": [
+        "build api",
+        "create fastapi backend", 
+        "implement rest api",
+        "optimize api performance"
+      ],
+      "tags": ["api", "backend", "async", "production", "microservices"],
+      "domains": ["backend", "api"]
+    },
+    {
+      "name": "react-typescript-frontend",
+      "version": "1.0.0", 
+      "description": "Modern React TypeScript frontend with UI/UX agent team",
+      "languages": ["javascript", "typescript"],
+      "frameworks": ["react"],
+      "complexity": "moderate",
+      "agents": [
+        "frontend-developer",
+        "react-specialist",
+        "typescript-pro",
+        "ui-designer",
+        "test-writer-fixer"
+      ],
+      "download_url": "/templates/react-typescript-frontend.zip",
+      "coordination_patterns": [
+        "component-development",
+        "ui-design-system",
+        "frontend-testing"
+      ],
+      "triggers": [
+        "create react component",
+        "build typescript frontend",
+        "design user interface",
+        "implement responsive design"
+      ],
+      "tags": ["frontend", "ui", "components", "spa"],
+      "domains": ["frontend", "ui"]
+    },
+    {
+      "name": "rust-axum-performance",
+      "version": "1.0.0",
+      "description": "High-performance Rust web services with optimization focus",
+      "languages": ["rust"], 
+      "frameworks": ["axum"],
+      "complexity": "high",
+      "agents": [
+        "rust-engineer",
+        "backend-architect",
+        "performance-benchmarker",
+        "api-designer",
+        "test-writer-fixer"
+      ],
+      "download_url": "/templates/rust-axum-performance.zip",
+      "coordination_patterns": [
+        "performance-first-development",
+        "memory-optimization", 
+        "concurrent-processing"
+      ],
+      "triggers": [
+        "build high-performance api",
+        "optimize rust performance",
+        "implement concurrent processing",
+        "create low-latency service"
+      ],
+      "tags": ["performance", "systems", "concurrent", "low-latency"],
+      "domains": ["backend", "performance"]
+    },
+    {
+      "name": "python-django-fullstack",
+      "version": "1.0.0",
+      "description": "Full-stack Django application with complete development team",
+      "languages": ["python"],
+      "frameworks": ["django"],
+      "complexity": "high",
+      "agents": [
+        "django-developer",
+        "fullstack-developer",
+        "backend-architect",
+        "frontend-developer",
+        "test-writer-fixer"
+      ],
+      "download_url": "/templates/python-django-fullstack.zip", 
+      "coordination_patterns": [
+        "fullstack-development",
+        "mvc-architecture",
+        "database-modeling"
+      ],
+      "triggers": [
+        "build django application",
+        "create fullstack app",
+        "implement mvc pattern",
+        "design database models"
+      ],
+      "tags": ["fullstack", "mvc", "admin", "orm"],
+      "domains": ["fullstack", "cms"]
+    },
+    {
+      "name": "devops-infrastructure",
+      "version": "1.0.0",
+      "description": "DevOps and infrastructure automation with specialized agents",
+      "languages": ["yaml", "bash"],
+      "frameworks": ["terraform", "ansible", "kubernetes"],
+      "complexity": "enterprise",
+      "agents": [
+        "devops-engineer",
+        "infrastructure-maintainer",
+        "kubernetes-specialist",
+        "terraform-engineer",
+        "sre-engineer"
+      ],
+      "download_url": "/templates/devops-infrastructure.zip",
+      "coordination_patterns": [
+        "infrastructure-as-code",
+        "deployment-automation",
+        "monitoring-setup"
+      ],
+      "triggers": [
+        "setup infrastructure",
+        "automate deployment",
+        "configure kubernetes",
+        "implement terraform"
+      ],
+      "tags": ["devops", "infrastructure", "automation", "monitoring"],
+      "domains": ["devops", "infrastructure"]
+    },
+    {
+      "name": "mlops-data-pipeline",
+      "version": "1.0.0",
+      "description": "MLOps data pipeline with ML engineering team",
+      "languages": ["python"],
+      "frameworks": ["pandas", "scikit-learn", "tensorflow"],
+      "complexity": "enterprise", 
+      "agents": [
+        "mlops-engineer",
+        "data-engineer",
+        "data-scientist",
+        "machine-learning-engineer",
+        "ml-engineer"
+      ],
+      "download_url": "/templates/mlops-data-pipeline.zip",
+      "coordination_patterns": [
+        "data-pipeline-development",
+        "model-training-workflow",
+        "ml-deployment"
+      ],
+      "triggers": [
+        "build data pipeline",
+        "train machine learning model",
+        "implement mlops workflow",
+        "deploy ml model"
+      ],
+      "tags": ["ml", "data", "pipeline", "training"],
+      "domains": ["mlops", "data"]
+    },
+    {
+      "name": "mobile-app-development",
+      "version": "1.0.0",
+      "description": "Mobile application development with platform-specific teams",
+      "languages": ["dart", "kotlin", "swift"],
+      "frameworks": ["flutter", "react-native"],
+      "complexity": "high",
+      "agents": [
+        "mobile-app-builder",
+        "mobile-app-developer",
+        "flutter-expert",
+        "ui-designer",
+        "app-store-optimizer"
+      ],
+      "download_url": "/templates/mobile-app-development.zip",
+      "coordination_patterns": [
+        "mobile-development",
+        "cross-platform-testing",
+        "app-store-submission"
+      ],
+      "triggers": [
+        "build mobile app",
+        "create flutter app",
+        "design mobile interface",
+        "optimize for app store"
+      ],
+      "tags": ["mobile", "cross-platform", "native", "ui"],
+      "domains": ["mobile", "ui"]
+    },
+    {
+      "name": "microservices-architecture",
+      "version": "1.0.0",
+      "description": "Microservices architecture with distributed systems team",
+      "languages": ["python", "java", "go"],
+      "frameworks": ["kubernetes", "docker", "istio"],
+      "complexity": "enterprise",
+      "agents": [
+        "microservices-architect",
+        "backend-architect",
+        "api-designer",
+        "devops-automator",
+        "kubernetes-specialist"
+      ],
+      "download_url": "/templates/microservices-architecture.zip",
+      "coordination_patterns": [
+        "service-decomposition",
+        "api-gateway-setup", 
+        "distributed-monitoring"
+      ],
+      "triggers": [
+        "design microservices",
+        "implement service mesh",
+        "create api gateway",
+        "monitor distributed system"
+      ],
+      "tags": ["microservices", "distributed", "scalability", "apis"],
+      "domains": ["backend", "architecture"]
+    },
+    {
+      "name": "nextjs-typescript-webapp",
+      "version": "1.0.0",
+      "description": "Modern Next.js TypeScript web application with full-stack team",
+      "languages": ["typescript", "javascript"],
+      "frameworks": ["nextjs", "react"],
+      "complexity": "moderate",
+      "agents": [
+        "nextjs-developer",
+        "typescript-pro",
+        "fullstack-developer",
+        "ui-designer",
+        "performance-benchmarker"
+      ],
+      "download_url": "/templates/nextjs-typescript-webapp.zip",
+      "coordination_patterns": [
+        "ssr-development",
+        "api-routes-setup",
+        "static-generation"
+      ],
+      "triggers": [
+        "build nextjs app",
+        "create ssr application",
+        "implement api routes",
+        "optimize web performance"
+      ],
+      "tags": ["nextjs", "ssr", "typescript", "webapp"],
+      "domains": ["fullstack", "webapp"]
+    },
+    {
+      "name": "blockchain-dapp",
+      "version": "1.0.0",
+      "description": "Decentralized application with Web3 specialists",
+      "languages": ["solidity", "javascript", "typescript"],
+      "frameworks": ["hardhat", "react", "web3"],
+      "complexity": "high",
+      "agents": [
+        "blockchain-developer",
+        "frontend-developer",
+        "security-auditor",
+        "test-writer-fixer",
+        "api-designer"
+      ],
+      "download_url": "/templates/blockchain-dapp.zip",
+      "coordination_patterns": [
+        "smart-contract-development",
+        "web3-integration",
+        "security-auditing"
+      ],
+      "triggers": [
+        "build dapp",
+        "create smart contract",
+        "integrate web3",
+        "audit blockchain security"
+      ],
+      "tags": ["blockchain", "web3", "smart-contracts", "dapp"],
+      "domains": ["blockchain", "web3"]
+    }
+  ],
+  "agent_definitions": [
+    {
+      "name": "backend-architect",
+      "description": "Expert backend architect specializing in modular system design, performance optimization, and scalable application architecture",
+      "specializations": ["api-design", "database-architecture", "performance-optimization"],
+      "coordination_patterns": ["leads-technical-design", "reviews-architecture", "optimizes-performance"],
+      "source": "claude-code-studio"
+    },
+    {
+      "name": "frontend-developer", 
+      "description": "Modern frontend developer specializing in React, TypeScript, and component-based architectures",
+      "specializations": ["component-development", "state-management", "responsive-design"],
+      "coordination_patterns": ["implements-ui-design", "integrates-apis", "optimizes-frontend"],
+      "source": "claude-code-studio"
+    },
+    {
+      "name": "data-engineer",
+      "description": "Expert data engineer specializing in building scalable data pipelines, ETL/ELT processes, and data infrastructure",
+      "specializations": ["spark", "snowflake", "databricks", "airflow", "kafka"],
+      "coordination_patterns": ["builds-data-pipelines", "manages-data-infrastructure", "optimizes-data-flow"],
+      "source": "awesome-claude-code-subagents"
+    },
+    {
+      "name": "rust-engineer",
+      "description": "Expert Rust engineer specializing in systems programming, performance optimization, and memory safety",
+      "specializations": ["systems-programming", "memory-management", "performance-optimization"],
+      "coordination_patterns": ["optimizes-performance", "ensures-memory-safety", "builds-systems"],
+      "source": "awesome-claude-code-subagents"
+    }
+  ],
+  "coordination_patterns": [
+    {
+      "name": "api-development-pipeline",
+      "description": "Standard pipeline for API development from design to deployment",
+      "workflow": [
+        "api-designer: API design and specification",
+        "backend-architect: Architecture and implementation",
+        "test-writer-fixer: Comprehensive testing", 
+        "performance-benchmarker: Performance validation",
+        "devops-automator: Deployment automation"
+      ]
+    },
+    {
+      "name": "fullstack-development",
+      "description": "Coordinated frontend and backend development workflow",
+      "workflow": [
+        "backend-architect: API design and backend architecture",
+        "frontend-developer: Frontend implementation and integration",
+        "ui-designer: User interface and experience design",
+        "test-writer-fixer: End-to-end testing",
+        "devops-automator: Full-stack deployment"
+      ]
+    },
+    {
+      "name": "data-pipeline-development",
+      "description": "ML/Data pipeline development with quality assurance",
+      "workflow": [
+        "data-engineer: Pipeline architecture and infrastructure",
+        "data-scientist: Data analysis and model development",
+        "ml-engineer: Model training and optimization",
+        "mlops-engineer: Deployment and monitoring",
+        "test-writer-fixer: Data quality and model validation"
+      ]
+    }
+  ],
+  "natural_language_triggers": {
+    "development": [
+      "build api",
+      "create backend", 
+      "implement frontend",
+      "design database",
+      "optimize performance"
+    ],
+    "data_ai": [
+      "analyze data",
+      "train model",
+      "build pipeline",
+      "implement ai features"
+    ],
+    "devops": [
+      "deploy application",
+      "setup infrastructure",
+      "configure kubernetes",
+      "automate deployment"
+    ],
+    "testing": [
+      "add tests",
+      "fix failing tests",
+      "improve coverage",
+      "validate security"
+    ]
+  }
+}

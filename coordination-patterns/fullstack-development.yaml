@@ -1,0 +1,42 @@
+name: Full-Stack Development
+description: Coordinated frontend and backend development workflow
+version: "1.0.0"
+
+workflow:
+  phases:
+    - name: architecture
+      agents: [backend-architect, frontend-developer]
+      duration: "1-2 hours"
+      parallel: true
+      outputs: ["backend-architecture", "frontend-architecture", "api-contract"]
+      
+    - name: backend_development
+      agents: [backend-developer, database-administrator]
+      duration: "4-8 hours"
+      inputs: ["backend-architecture", "api-contract"]
+      outputs: ["backend-implementation", "database-schema"]
+      
+    - name: frontend_development
+      agents: [frontend-developer, ui-designer]
+      duration: "4-8 hours"
+      inputs: ["frontend-architecture", "api-contract"]
+      outputs: ["frontend-implementation", "ui-components"]
+      parallel_with: "backend_development"
+      
+    - name: integration
+      agents: [fullstack-developer, test-writer-fixer]
+      duration: "2-4 hours"
+      inputs: ["backend-implementation", "frontend-implementation"]
+      outputs: ["integrated-application", "integration-tests"]
+      
+    - name: deployment
+      agents: [devops-automator, fullstack-developer]
+      duration: "1-2 hours"
+      inputs: ["integrated-application", "integration-tests"]
+      outputs: ["deployed-application", "monitoring-setup"]
+
+triggers:
+  - "build fullstack app"
+  - "create web application"
+  - "implement frontend and backend"
+  - "build complete application"

@@ -1,0 +1,2893 @@
+{
+  "version": "1.0.0",
+  "updated": "2025-09-11T12:00:00Z",
+  "strategy": "hybrid",
+  "description": "Comprehensive agent registry with copied agents, external repos, and generation capability",
+  "copied_agents": {
+    "total": 153,
+    "agents": [
+      {
+        "name": "data-scientist",
+        "description": "Expert data scientist specializing in statistical analysis, machine learning, and business insights. Masters exploratory data analysis, predictive modeling, and data storytelling with focus on delivering actionable insights that drive business value.",
+        "tools": "python, jupyter, pandas, sklearn, matplotlib, statsmodels",
+        "color": "blue",
+        "specializations": [
+          "python",
+          "jupyter",
+          "pandas",
+          "sklearn",
+          "matplotlib"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/05-data-ai/data-scientist.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/data-scientist.md",
+        "status": "copied"
+      },
+      {
+        "name": "data-engineer",
+        "description": "Expert data engineer specializing in building scalable data pipelines, ETL/ELT processes, and data infrastructure. Masters big data technologies and cloud platforms with focus on reliable, efficient, and cost-optimized data platforms.",
+        "tools": "spark, airflow, dbt, kafka, snowflake, databricks",
+        "color": "blue",
+        "specializations": [
+          "spark",
+          "airflow",
+          "kafka",
+          "snowflake",
+          "databricks"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/05-data-ai/data-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/data-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "mlops-engineer",
+        "description": "Expert MLOps engineer specializing in ML infrastructure, platform engineering, and operational excellence for machine learning systems. Masters CI/CD for ML, model versioning, and scalable ML platforms with focus on reliability and automation.",
+        "tools": "mlflow, kubeflow, airflow, docker, prometheus, grafana",
+        "color": "blue",
+        "specializations": [
+          "mlflow",
+          "kubeflow",
+          "airflow",
+          "docker",
+          "prometheus"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/05-data-ai/mlops-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/mlops-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "machine-learning-engineer",
+        "description": "Expert ML engineer specializing in production model deployment, serving infrastructure, and scalable ML systems. Masters model optimization, real-time inference, and edge deployment with focus on reliability and performance at scale.",
+        "tools": "Read, Write, MultiEdit, Bash, tensorflow, pytorch, onnx, triton, bentoml, ray, vllm",
+        "color": "blue",
+        "specializations": [
+          "tensorflow",
+          "pytorch",
+          "onnx",
+          "triton",
+          "bentoml"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/05-data-ai/machine-learning-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/machine-learning-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "nlp-engineer",
+        "description": "Expert NLP engineer specializing in natural language processing, understanding, and generation. Masters transformer models, text processing pipelines, and production NLP systems with focus on multilingual support and real-time performance.",
+        "tools": "Read, Write, MultiEdit, Bash, transformers, spacy, nltk, huggingface, gensim, fasttext",
+        "color": "blue",
+        "specializations": [
+          "transformers",
+          "spacy",
+          "nltk",
+          "huggingface",
+          "gensim"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/05-data-ai/nlp-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/nlp-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "llm-architect",
+        "description": "Expert LLM architect specializing in large language model architecture, deployment, and optimization. Masters LLM system design, fine-tuning strategies, and production serving with focus on building scalable, efficient, and safe LLM applications.",
+        "tools": "transformers, langchain, llamaindex, vllm, wandb",
+        "color": "blue",
+        "specializations": [
+          "transformers",
+          "langchain",
+          "llamaindex",
+          "vllm",
+          "wandb"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/05-data-ai/llm-architect.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/llm-architect.md",
+        "status": "copied"
+      },
+      {
+        "name": "ai-engineer",
+        "description": "Expert AI engineer specializing in AI system design, model implementation, and production deployment. Masters multiple AI frameworks and tools with focus on building scalable, efficient, and ethical AI solutions from research to production.",
+        "tools": "python, jupyter, tensorflow, pytorch, huggingface, wandb",
+        "color": "blue",
+        "specializations": [
+          "python",
+          "jupyter",
+          "tensorflow",
+          "pytorch",
+          "huggingface"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/05-data-ai/ai-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/ai-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "data-analyst",
+        "description": "Expert data analyst specializing in business intelligence, data visualization, and statistical analysis. Masters SQL, Python, and BI tools to transform raw data into actionable insights with focus on stakeholder communication and business impact.",
+        "tools": "Read, Write, MultiEdit, Bash, sql, python, tableau, powerbi, looker, dbt, excel",
+        "color": "blue",
+        "specializations": [
+          "python",
+          "tableau",
+          "powerbi",
+          "looker",
+          "excel"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/05-data-ai/data-analyst.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/data-analyst.md",
+        "status": "copied"
+      },
+      {
+        "name": "prompt-engineer",
+        "description": "Expert prompt engineer specializing in designing, optimizing, and managing prompts for large language models. Masters prompt architecture, evaluation frameworks, and production prompt systems with focus on reliability, efficiency, and measurable outcomes.",
+        "tools": "openai, anthropic, langchain, promptflow, jupyter",
+        "color": "blue",
+        "specializations": [
+          "openai",
+          "anthropic",
+          "langchain",
+          "promptflow",
+          "jupyter"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/05-data-ai/prompt-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/prompt-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "database-optimizer",
+        "description": "Expert database optimizer specializing in query optimization, performance tuning, and scalability across multiple database systems. Masters execution plan analysis, index strategies, and system-level optimizations with focus on achieving peak database performance.",
+        "tools": "explain, analyze, pgbench, mysqltuner, redis-cli",
+        "color": "blue",
+        "specializations": [
+          "explain",
+          "analyze",
+          "pgbench",
+          "mysqltuner",
+          "redis-cli"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/05-data-ai/database-optimizer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/database-optimizer.md",
+        "status": "copied"
+      },
+      {
+        "name": "ml-engineer",
+        "description": "Expert ML engineer specializing in machine learning model lifecycle, production deployment, and ML system optimization. Masters both traditional ML and deep learning with focus on building scalable, reliable ML systems from training to serving.",
+        "tools": "mlflow, kubeflow, tensorflow, sklearn, optuna",
+        "color": "blue",
+        "specializations": [
+          "mlflow",
+          "kubeflow",
+          "tensorflow",
+          "sklearn",
+          "optuna"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/05-data-ai/ml-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/ml-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "postgres-pro",
+        "description": "Expert PostgreSQL specialist mastering database administration, performance optimization, and high availability. Deep expertise in PostgreSQL internals, advanced features, and enterprise deployment with focus on reliability and peak performance.",
+        "tools": "psql, pg_dump, pgbench, pg_stat_statements, pgbadger",
+        "color": "blue",
+        "specializations": [
+          "psql",
+          "pg_dump",
+          "pgbench",
+          "pg_stat_statements",
+          "pgbadger"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/05-data-ai/postgres-pro.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/postgres-pro.md",
+        "status": "copied"
+      },
+      {
+        "name": "search-specialist",
+        "description": "Expert search specialist mastering advanced information retrieval, query optimization, and knowledge discovery. Specializes in finding needle-in-haystack information across diverse sources with focus on precision, comprehensiveness, and efficiency.",
+        "tools": "Read, Write, WebSearch, Grep, elasticsearch, google-scholar, specialized-databases",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "write",
+          "websearch",
+          "grep",
+          "elasticsearch"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/10-research-analysis/search-specialist.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/search-specialist.md",
+        "status": "copied"
+      },
+      {
+        "name": "market-researcher",
+        "description": "Expert market researcher specializing in market analysis, consumer insights, and competitive intelligence. Masters market sizing, segmentation, and trend analysis with focus on identifying opportunities and informing strategic business decisions.",
+        "tools": "Read, Write, WebSearch, survey-tools, analytics, statista, similarweb",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "write",
+          "websearch",
+          "survey-tools",
+          "analytics"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/10-research-analysis/market-researcher.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/market-researcher.md",
+        "status": "copied"
+      },
+      {
+        "name": "trend-analyst",
+        "description": "Expert trend analyst specializing in identifying emerging patterns, forecasting future developments, and strategic foresight. Masters trend detection, impact analysis, and scenario planning with focus on helping organizations anticipate and adapt to change.",
+        "tools": "Read, Write, WebSearch, google-trends, social-listening, data-visualization",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "write",
+          "websearch",
+          "google-trends",
+          "social-listening"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/10-research-analysis/trend-analyst.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/trend-analyst.md",
+        "status": "copied"
+      },
+      {
+        "name": "research-analyst",
+        "description": "Expert research analyst specializing in comprehensive information gathering, synthesis, and insight generation. Masters research methodologies, data analysis, and report creation with focus on delivering actionable intelligence that drives informed decision-making.",
+        "tools": "Read, Write, WebSearch, WebFetch, Grep",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "write",
+          "websearch",
+          "webfetch",
+          "grep"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/10-research-analysis/research-analyst.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/research-analyst.md",
+        "status": "copied"
+      },
+      {
+        "name": "competitive-analyst",
+        "description": "Expert competitive analyst specializing in competitor intelligence, strategic analysis, and market positioning. Masters competitive benchmarking, SWOT analysis, and strategic recommendations with focus on creating sustainable competitive advantages.",
+        "tools": "Read, Write, WebSearch, WebFetch, similarweb, semrush, crunchbase",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "write",
+          "websearch",
+          "webfetch",
+          "similarweb"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/10-research-analysis/competitive-analyst.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/competitive-analyst.md",
+        "status": "copied"
+      },
+      {
+        "name": "data-researcher",
+        "description": "Expert data researcher specializing in discovering, collecting, and analyzing diverse data sources. Masters data mining, statistical analysis, and pattern recognition with focus on extracting meaningful insights from complex datasets to support evidence-based decisions.",
+        "tools": "Read, Write, sql, python, pandas, WebSearch, api-tools",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "write",
+          "python",
+          "pandas",
+          "websearch"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/10-research-analysis/data-researcher.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/data-researcher.md",
+        "status": "copied"
+      },
+      {
+        "name": "documentation-engineer",
+        "description": "Expert documentation engineer specializing in technical documentation systems, API documentation, and developer-friendly content. Masters documentation-as-code, automated generation, and creating maintainable documentation that developers actually use.",
+        "tools": "Read, Write, MultiEdit, Bash, markdown, asciidoc, sphinx, mkdocs, docusaurus, swagger",
+        "color": "blue",
+        "specializations": [
+          "markdown",
+          "asciidoc",
+          "sphinx",
+          "mkdocs",
+          "docusaurus"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/06-developer-experience/documentation-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/documentation-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "legacy-modernizer",
+        "description": "Expert legacy system modernizer specializing in incremental migration strategies and risk-free modernization. Masters refactoring patterns, technology updates, and business continuity with focus on transforming legacy systems into modern, maintainable architectures without disrupting operations.",
+        "tools": "ast-grep, jscodeshift, rector, rubocop, modernizr",
+        "color": "blue",
+        "specializations": [
+          "ast-grep",
+          "jscodeshift",
+          "rector",
+          "rubocop",
+          "modernizr"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/06-developer-experience/legacy-modernizer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/legacy-modernizer.md",
+        "status": "copied"
+      },
+      {
+        "name": "git-workflow-manager",
+        "description": "Expert Git workflow manager specializing in branching strategies, automation, and team collaboration. Masters Git workflows, merge conflict resolution, and repository management with focus on enabling efficient, clear, and scalable version control practices.",
+        "tools": "git, github-cli, gitlab, gitflow, pre-commit",
+        "color": "blue",
+        "specializations": [
+          "github-cli",
+          "gitlab",
+          "gitflow",
+          "pre-commit"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/06-developer-experience/git-workflow-manager.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/git-workflow-manager.md",
+        "status": "copied"
+      },
+      {
+        "name": "mcp-developer",
+        "description": "Expert MCP developer specializing in Model Context Protocol server and client development. Masters protocol specification, SDK implementation, and building production-ready integrations between AI systems and external tools/data sources.",
+        "tools": "Read, Write, MultiEdit, Bash, typescript, nodejs, python, json-rpc, zod, pydantic, mcp-sdk",
+        "color": "blue",
+        "specializations": [
+          "typescript",
+          "nodejs",
+          "python",
+          "json-rpc",
+          "pydantic"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/06-developer-experience/mcp-developer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/mcp-developer.md",
+        "status": "copied"
+      },
+      {
+        "name": "dependency-manager",
+        "description": "Expert dependency manager specializing in package management, security auditing, and version conflict resolution across multiple ecosystems. Masters dependency optimization, supply chain security, and automated updates with focus on maintaining stable, secure, and efficient dependency trees.",
+        "tools": "npm, yarn, pip, maven, gradle, cargo, bundler, composer",
+        "color": "blue",
+        "specializations": [
+          "yarn",
+          "maven",
+          "gradle",
+          "cargo",
+          "bundler"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/06-developer-experience/dependency-manager.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/dependency-manager.md",
+        "status": "copied"
+      },
+      {
+        "name": "refactoring-specialist",
+        "description": "Expert refactoring specialist mastering safe code transformation techniques and design pattern application. Specializes in improving code structure, reducing complexity, and enhancing maintainability while preserving behavior with focus on systematic, test-driven refactoring.",
+        "tools": "ast-grep, semgrep, eslint, prettier, jscodeshift",
+        "color": "blue",
+        "specializations": [
+          "ast-grep",
+          "semgrep",
+          "eslint",
+          "prettier",
+          "jscodeshift"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/06-developer-experience/refactoring-specialist.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/refactoring-specialist.md",
+        "status": "copied"
+      },
+      {
+        "name": "cli-developer",
+        "description": "Expert CLI developer specializing in command-line interface design, developer tools, and terminal applications. Masters user experience, cross-platform compatibility, and building efficient CLI tools that developers love to use.",
+        "tools": "Read, Write, MultiEdit, Bash, commander, yargs, inquirer, chalk, ora, blessed",
+        "color": "blue",
+        "specializations": [
+          "commander",
+          "yargs",
+          "inquirer",
+          "chalk",
+          "blessed"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/06-developer-experience/cli-developer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/cli-developer.md",
+        "status": "copied"
+      },
+      {
+        "name": "tooling-engineer",
+        "description": "Expert tooling engineer specializing in developer tool creation, CLI development, and productivity enhancement. Masters tool architecture, plugin systems, and user experience design with focus on building efficient, extensible tools that significantly improve developer workflows.",
+        "tools": "node, python, go, rust, webpack, rollup, esbuild",
+        "color": "blue",
+        "specializations": [
+          "node",
+          "python",
+          "rust",
+          "webpack",
+          "rollup"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/06-developer-experience/tooling-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/tooling-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "dx-optimizer",
+        "description": "Expert developer experience optimizer specializing in build performance, tooling efficiency, and workflow automation. Masters development environment optimization with focus on reducing friction, accelerating feedback loops, and maximizing developer productivity and satisfaction.",
+        "tools": "webpack, vite, turbo, nx, rush, lerna, bazel",
+        "color": "blue",
+        "specializations": [
+          "webpack",
+          "vite",
+          "turbo",
+          "rush",
+          "lerna"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/06-developer-experience/dx-optimizer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/dx-optimizer.md",
+        "status": "copied"
+      },
+      {
+        "name": "build-engineer",
+        "description": "Expert build engineer specializing in build system optimization, compilation strategies, and developer productivity. Masters modern build tools, caching mechanisms, and creating fast, reliable build pipelines that scale with team growth.",
+        "tools": "Read, Write, MultiEdit, Bash, webpack, vite, rollup, esbuild, turbo, nx, bazel",
+        "color": "blue",
+        "specializations": [
+          "webpack",
+          "vite",
+          "rollup",
+          "esbuild",
+          "turbo"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/06-developer-experience/build-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/build-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "product-manager",
+        "description": "Expert product manager specializing in product strategy, user-centric development, and business outcomes. Masters roadmap planning, feature prioritization, and cross-functional leadership with focus on delivering products that users love and drive business growth.",
+        "tools": "jira, productboard, amplitude, mixpanel, figma, slack",
+        "color": "blue",
+        "specializations": [
+          "jira",
+          "productboard",
+          "amplitude",
+          "mixpanel",
+          "figma"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/08-business-product/product-manager.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/product-manager.md",
+        "status": "copied"
+      },
+      {
+        "name": "business-analyst",
+        "description": "Expert business analyst specializing in requirements gathering, process improvement, and data-driven decision making. Masters stakeholder management, business process modeling, and solution design with focus on delivering measurable business value.",
+        "tools": "excel, sql, tableau, powerbi, jira, confluence, miro",
+        "color": "blue",
+        "specializations": [
+          "excel",
+          "tableau",
+          "powerbi",
+          "jira",
+          "confluence"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/08-business-product/business-analyst.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/business-analyst.md",
+        "status": "copied"
+      },
+      {
+        "name": "legal-advisor",
+        "description": "Expert legal advisor specializing in technology law, compliance, and risk mitigation. Masters contract drafting, intellectual property, data privacy, and regulatory compliance with focus on protecting business interests while enabling innovation and growth.",
+        "tools": "markdown, latex, docusign, contract-tools",
+        "color": "blue",
+        "specializations": [
+          "markdown",
+          "latex",
+          "docusign",
+          "contract-tools"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/08-business-product/legal-advisor.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/legal-advisor.md",
+        "status": "copied"
+      },
+      {
+        "name": "customer-success-manager",
+        "description": "Expert customer success manager specializing in customer retention, growth, and advocacy. Masters account health monitoring, strategic relationship building, and driving customer value realization to maximize satisfaction and revenue growth.",
+        "tools": "Read, Write, MultiEdit, Bash, salesforce, zendesk, intercom, gainsight, mixpanel",
+        "color": "blue",
+        "specializations": [
+          "salesforce",
+          "zendesk",
+          "intercom",
+          "gainsight",
+          "mixpanel"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/08-business-product/customer-success-manager.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/customer-success-manager.md",
+        "status": "copied"
+      },
+      {
+        "name": "content-marketer",
+        "description": "Expert content marketer specializing in content strategy, SEO optimization, and engagement-driven marketing. Masters multi-channel content creation, analytics, and conversion optimization with focus on building brand authority and driving measurable business results.",
+        "tools": "wordpress, hubspot, buffer, canva, semrush, analytics",
+        "color": "blue",
+        "specializations": [
+          "wordpress",
+          "hubspot",
+          "buffer",
+          "canva",
+          "semrush"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/08-business-product/content-marketer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/content-marketer.md",
+        "status": "copied"
+      },
+      {
+        "name": "ux-researcher",
+        "description": "Expert UX researcher specializing in user insights, usability testing, and data-driven design decisions. Masters qualitative and quantitative research methods to uncover user needs, validate designs, and drive product improvements through actionable insights.",
+        "tools": "Read, Write, MultiEdit, Bash, figma, miro, usertesting, hotjar, maze, airtable",
+        "color": "blue",
+        "specializations": [
+          "figma",
+          "miro",
+          "usertesting",
+          "hotjar",
+          "maze"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/08-business-product/ux-researcher.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/ux-researcher.md",
+        "status": "copied"
+      },
+      {
+        "name": "project-manager",
+        "description": "Expert project manager specializing in project planning, execution, and delivery. Masters resource management, risk mitigation, and stakeholder communication with focus on delivering projects on time, within budget, and exceeding expectations.",
+        "tools": "jira, asana, monday, ms-project, slack, zoom",
+        "color": "blue",
+        "specializations": [
+          "jira",
+          "asana",
+          "monday",
+          "ms-project",
+          "slack"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/08-business-product/project-manager.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/project-manager.md",
+        "status": "copied"
+      },
+      {
+        "name": "technical-writer",
+        "description": "Expert technical writer specializing in clear, accurate documentation and content creation. Masters API documentation, user guides, and technical content with focus on making complex information accessible and actionable for diverse audiences.",
+        "tools": "markdown, asciidoc, confluence, gitbook, mkdocs",
+        "color": "blue",
+        "specializations": [
+          "markdown",
+          "asciidoc",
+          "confluence",
+          "gitbook",
+          "mkdocs"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/08-business-product/technical-writer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/technical-writer.md",
+        "status": "copied"
+      },
+      {
+        "name": "scrum-master",
+        "description": "Expert Scrum Master specializing in agile transformation, team facilitation, and continuous improvement. Masters Scrum framework implementation, impediment removal, and fostering high-performing, self-organizing teams that deliver value consistently.",
+        "tools": "Read, Write, MultiEdit, Bash, jira, confluence, miro, slack, zoom, azure-devops",
+        "color": "blue",
+        "specializations": [
+          "jira",
+          "confluence",
+          "miro",
+          "slack",
+          "zoom"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/08-business-product/scrum-master.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/scrum-master.md",
+        "status": "copied"
+      },
+      {
+        "name": "sales-engineer",
+        "description": "Expert sales engineer specializing in technical pre-sales, solution architecture, and proof of concepts. Masters technical demonstrations, competitive positioning, and translating complex technology into business value for prospects and customers.",
+        "tools": "Read, Write, MultiEdit, Bash, salesforce, demo-tools, docker, postman, zoom",
+        "color": "blue",
+        "specializations": [
+          "salesforce",
+          "demo-tools",
+          "docker",
+          "postman",
+          "zoom"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/08-business-product/sales-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/sales-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "network-engineer",
+        "description": "Expert network engineer specializing in cloud and hybrid network architectures, security, and performance optimization. Masters network design, troubleshooting, and automation with focus on reliability, scalability, and zero-trust principles.",
+        "tools": "Read, Write, MultiEdit, Bash, tcpdump, wireshark, nmap, iperf, netcat, dig, traceroute",
+        "color": "blue",
+        "specializations": [
+          "tcpdump",
+          "wireshark",
+          "nmap",
+          "iperf",
+          "netcat"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/03-infrastructure/network-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/network-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "security-engineer",
+        "description": "Expert infrastructure security engineer specializing in DevSecOps, cloud security, and compliance frameworks. Masters security automation, vulnerability management, and zero-trust architecture with emphasis on shift-left security practices.",
+        "tools": "Read, Write, MultiEdit, Bash, nmap, metasploit, burp, vault, trivy, falco, terraform",
+        "color": "blue",
+        "specializations": [
+          "nmap",
+          "metasploit",
+          "burp",
+          "vault",
+          "trivy"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/03-infrastructure/security-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/security-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "devops-incident-responder",
+        "description": "Expert incident responder specializing in rapid detection, diagnosis, and resolution of production issues. Masters observability tools, root cause analysis, and automated remediation with focus on minimizing downtime and preventing recurrence.",
+        "tools": "Read, Write, MultiEdit, Bash, pagerduty, slack, datadog, kubectl, aws-cli, jq, grafana",
+        "color": "blue",
+        "specializations": [
+          "pagerduty",
+          "slack",
+          "datadog",
+          "kubectl",
+          "aws-cli"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/03-infrastructure/devops-incident-responder.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/devops-incident-responder.md",
+        "status": "copied"
+      },
+      {
+        "name": "platform-engineer",
+        "description": "Expert platform engineer specializing in internal developer platforms, self-service infrastructure, and developer experience. Masters platform APIs, GitOps workflows, and golden path templates with focus on empowering developers and accelerating delivery.",
+        "tools": "Read, Write, MultiEdit, Bash, kubectl, helm, argocd, crossplane, backstage, terraform, flux",
+        "color": "blue",
+        "specializations": [
+          "kubectl",
+          "helm",
+          "argocd",
+          "crossplane",
+          "backstage"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/03-infrastructure/platform-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/platform-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "incident-responder",
+        "description": "Expert incident responder specializing in security and operational incident management. Masters evidence collection, forensic analysis, and coordinated response with focus on minimizing impact and preventing future incidents.",
+        "tools": "Read, Write, MultiEdit, Bash, pagerduty, opsgenie, victorops, slack, jira, statuspage",
+        "color": "blue",
+        "specializations": [
+          "pagerduty",
+          "opsgenie",
+          "victorops",
+          "slack",
+          "jira"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/03-infrastructure/incident-responder.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/incident-responder.md",
+        "status": "copied"
+      },
+      {
+        "name": "terraform-engineer",
+        "description": "Expert Terraform engineer specializing in infrastructure as code, multi-cloud provisioning, and modular architecture. Masters Terraform best practices, state management, and enterprise patterns with focus on reusability, security, and automation.",
+        "tools": "Read, Write, MultiEdit, Bash, terraform, terragrunt, tflint, terraform-docs, checkov, infracost",
+        "color": "blue",
+        "specializations": [
+          "terraform",
+          "terragrunt",
+          "tflint",
+          "terraform-docs",
+          "checkov"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/03-infrastructure/terraform-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/terraform-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "database-administrator",
+        "description": "Expert database administrator specializing in high-availability systems, performance optimization, and disaster recovery. Masters PostgreSQL, MySQL, MongoDB, and Redis with focus on reliability, scalability, and operational excellence.",
+        "tools": "Read, Write, MultiEdit, Bash, psql, mysql, mongosh, redis-cli, pg_dump, percona-toolkit, pgbench",
+        "color": "blue",
+        "specializations": [
+          "psql",
+          "mysql",
+          "mongosh",
+          "redis-cli",
+          "pg_dump"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/03-infrastructure/database-administrator.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/database-administrator.md",
+        "status": "copied"
+      },
+      {
+        "name": "kubernetes-specialist",
+        "description": "Expert Kubernetes specialist mastering container orchestration, cluster management, and cloud-native architectures. Specializes in production-grade deployments, security hardening, and performance optimization with focus on scalability and reliability.",
+        "tools": "Read, Write, MultiEdit, Bash, kubectl, helm, kustomize, kubeadm, k9s, stern, kubectx",
+        "color": "blue",
+        "specializations": [
+          "kubectl",
+          "helm",
+          "kustomize",
+          "kubeadm",
+          "stern"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/03-infrastructure/kubernetes-specialist.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/kubernetes-specialist.md",
+        "status": "copied"
+      },
+      {
+        "name": "deployment-engineer",
+        "description": "Expert deployment engineer specializing in CI/CD pipelines, release automation, and deployment strategies. Masters blue-green, canary, and rolling deployments with focus on zero-downtime releases and rapid rollback capabilities.",
+        "tools": "Read, Write, MultiEdit, Bash, ansible, jenkins, gitlab-ci, github-actions, argocd, spinnaker",
+        "color": "blue",
+        "specializations": [
+          "ansible",
+          "jenkins",
+          "gitlab-ci",
+          "github-actions",
+          "argocd"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/03-infrastructure/deployment-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/deployment-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "sre-engineer",
+        "description": "Expert Site Reliability Engineer balancing feature velocity with system stability through SLOs, automation, and operational excellence. Masters reliability engineering, chaos testing, and toil reduction with focus on building resilient, self-healing systems.",
+        "tools": "Read, Write, MultiEdit, Bash, prometheus, grafana, terraform, kubectl, python, go, pagerduty",
+        "color": "blue",
+        "specializations": [
+          "prometheus",
+          "grafana",
+          "terraform",
+          "kubectl",
+          "python"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/03-infrastructure/sre-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/sre-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "devops-engineer",
+        "description": "Expert DevOps engineer bridging development and operations with comprehensive automation, monitoring, and infrastructure management. Masters CI/CD, containerization, and cloud platforms with focus on culture, collaboration, and continuous improvement.",
+        "tools": "Read, Write, MultiEdit, Bash, docker, kubernetes, terraform, ansible, prometheus, jenkins",
+        "color": "blue",
+        "specializations": [
+          "docker",
+          "kubernetes",
+          "terraform",
+          "ansible",
+          "prometheus"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/03-infrastructure/devops-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/devops-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "cloud-architect",
+        "description": "Expert cloud architect specializing in multi-cloud strategies, scalable architectures, and cost-effective solutions. Masters AWS, Azure, and GCP with focus on security, performance, and compliance while designing resilient cloud-native systems.",
+        "tools": "Read, Write, MultiEdit, Bash, aws-cli, azure-cli, gcloud, terraform, kubectl, draw.io",
+        "color": "blue",
+        "specializations": [
+          "aws-cli",
+          "azure-cli",
+          "gcloud",
+          "terraform",
+          "kubectl"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/03-infrastructure/cloud-architect.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/cloud-architect.md",
+        "status": "copied"
+      },
+      {
+        "name": "context-manager",
+        "description": "Expert context manager specializing in information storage, retrieval, and synchronization across multi-agent systems. Masters state management, version control, and data lifecycle with focus on ensuring consistency, accessibility, and performance at scale.",
+        "tools": "Read, Write, redis, elasticsearch, vector-db",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "write",
+          "redis",
+          "elasticsearch",
+          "vector-db"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/09-meta-orchestration/context-manager.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/context-manager.md",
+        "status": "copied"
+      },
+      {
+        "name": "multi-agent-coordinator",
+        "description": "Expert multi-agent coordinator specializing in complex workflow orchestration, inter-agent communication, and distributed system coordination. Masters parallel execution, dependency management, and fault tolerance with focus on achieving seamless collaboration at scale.",
+        "tools": "Read, Write, message-queue, pubsub, workflow-engine",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "write",
+          "message-queue",
+          "pubsub",
+          "workflow-engine"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/09-meta-orchestration/multi-agent-coordinator.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/multi-agent-coordinator.md",
+        "status": "copied"
+      },
+      {
+        "name": "performance-monitor",
+        "description": "Expert performance monitor specializing in system-wide metrics collection, analysis, and optimization. Masters real-time monitoring, anomaly detection, and performance insights across distributed agent systems with focus on observability and continuous improvement.",
+        "tools": "Read, Write, MultiEdit, Bash, prometheus, grafana, datadog, elasticsearch, statsd",
+        "color": "blue",
+        "specializations": [
+          "prometheus",
+          "grafana",
+          "datadog",
+          "elasticsearch",
+          "statsd"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/09-meta-orchestration/performance-monitor.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/performance-monitor.md",
+        "status": "copied"
+      },
+      {
+        "name": "agent-organizer",
+        "description": "Expert agent organizer specializing in multi-agent orchestration, team assembly, and workflow optimization. Masters task decomposition, agent selection, and coordination strategies with focus on achieving optimal team performance and resource utilization.",
+        "tools": "Read, Write, agent-registry, task-queue, monitoring",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "write",
+          "agent-registry",
+          "task-queue",
+          "monitoring"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/09-meta-orchestration/agent-organizer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/agent-organizer.md",
+        "status": "copied"
+      },
+      {
+        "name": "knowledge-synthesizer",
+        "description": "Expert knowledge synthesizer specializing in extracting insights from multi-agent interactions, identifying patterns, and building collective intelligence. Masters cross-agent learning, best practice extraction, and continuous system improvement through knowledge management.",
+        "tools": "Read, Write, MultiEdit, Bash, vector-db, nlp-tools, graph-db, ml-pipeline",
+        "color": "blue",
+        "specializations": [
+          "vector-db",
+          "nlp-tools",
+          "graph-db",
+          "ml-pipeline"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/09-meta-orchestration/knowledge-synthesizer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/knowledge-synthesizer.md",
+        "status": "copied"
+      },
+      {
+        "name": "workflow-orchestrator",
+        "description": "Expert workflow orchestrator specializing in complex process design, state machine implementation, and business process automation. Masters workflow patterns, error compensation, and transaction management with focus on building reliable, flexible, and observable workflow systems.",
+        "tools": "Read, Write, workflow-engine, state-machine, bpmn",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "write",
+          "workflow-engine",
+          "state-machine",
+          "bpmn"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/09-meta-orchestration/workflow-orchestrator.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/workflow-orchestrator.md",
+        "status": "copied"
+      },
+      {
+        "name": "task-distributor",
+        "description": "Expert task distributor specializing in intelligent work allocation, load balancing, and queue management. Masters priority scheduling, capacity tracking, and fair distribution with focus on maximizing throughput while maintaining quality and meeting deadlines.",
+        "tools": "Read, Write, task-queue, load-balancer, scheduler",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "write",
+          "task-queue",
+          "load-balancer",
+          "scheduler"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/09-meta-orchestration/task-distributor.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/task-distributor.md",
+        "status": "copied"
+      },
+      {
+        "name": "error-coordinator",
+        "description": "Expert error coordinator specializing in distributed error handling, failure recovery, and system resilience. Masters error correlation, cascade prevention, and automated recovery strategies across multi-agent systems with focus on minimizing impact and learning from failures.",
+        "tools": "Read, Write, MultiEdit, Bash, sentry, pagerduty, error-tracking, circuit-breaker",
+        "color": "blue",
+        "specializations": [
+          "sentry",
+          "pagerduty",
+          "error-tracking",
+          "circuit-breaker"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/09-meta-orchestration/error-coordinator.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/error-coordinator.md",
+        "status": "copied"
+      },
+      {
+        "name": "react-specialist",
+        "description": "Expert React specialist mastering React 18+ with modern patterns and ecosystem. Specializes in performance optimization, advanced hooks, server components, and production-ready architectures with focus on creating scalable, maintainable applications.",
+        "tools": "vite, webpack, jest, cypress, storybook, react-devtools, npm, typescript",
+        "color": "blue",
+        "specializations": [
+          "vite",
+          "webpack",
+          "jest",
+          "cypress",
+          "storybook"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/react-specialist.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/react-specialist.md",
+        "status": "copied"
+      },
+      {
+        "name": "spring-boot-engineer",
+        "description": "Expert Spring Boot engineer mastering Spring Boot 3+ with cloud-native patterns. Specializes in microservices, reactive programming, Spring Cloud integration, and enterprise solutions with focus on building scalable, production-ready applications.",
+        "tools": "maven, gradle, spring-cli, docker, kubernetes, intellij, git, postgresql",
+        "color": "blue",
+        "specializations": [
+          "maven",
+          "gradle",
+          "spring-cli",
+          "docker",
+          "kubernetes"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/spring-boot-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/spring-boot-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "dotnet-core-expert",
+        "description": "Expert .NET Core specialist mastering .NET 8 with modern C# features. Specializes in cross-platform development, minimal APIs, cloud-native applications, and microservices with focus on building high-performance, scalable solutions.",
+        "tools": "dotnet-cli, nuget, xunit, docker, azure-cli, visual-studio, git, sql-server",
+        "color": "blue",
+        "specializations": [
+          "dotnet-cli",
+          "nuget",
+          "xunit",
+          "docker",
+          "azure-cli"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/dotnet-core-expert.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/dotnet-core-expert.md",
+        "status": "copied"
+      },
+      {
+        "name": "angular-architect",
+        "description": "Expert Angular architect mastering Angular 15+ with enterprise patterns. Specializes in RxJS, NgRx state management, micro-frontend architecture, and performance optimization with focus on building scalable enterprise applications.",
+        "tools": "angular-cli, nx, jest, cypress, webpack, rxjs, npm, typescript",
+        "color": "blue",
+        "specializations": [
+          "angular-cli",
+          "jest",
+          "cypress",
+          "webpack",
+          "rxjs"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/angular-architect.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/angular-architect.md",
+        "status": "copied"
+      },
+      {
+        "name": "typescript-pro",
+        "description": "Expert TypeScript developer specializing in advanced type system usage, full-stack development, and build optimization. Masters type-safe patterns for both frontend and backend with emphasis on developer experience and runtime safety.",
+        "tools": "Read, Write, MultiEdit, Bash, tsc, eslint, prettier, jest, webpack, vite, tsx",
+        "color": "blue",
+        "specializations": [
+          "eslint",
+          "prettier",
+          "jest",
+          "webpack",
+          "vite"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/typescript-pro.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/typescript-pro.md",
+        "status": "copied"
+      },
+      {
+        "name": "python-pro",
+        "description": "Expert Python developer specializing in modern Python 3.11+ development with deep expertise in type safety, async programming, data science, and web frameworks. Masters Pythonic patterns while ensuring production-ready code quality.",
+        "tools": "Read, Write, MultiEdit, Bash, pip, pytest, black, mypy, poetry, ruff, bandit",
+        "color": "blue",
+        "specializations": [
+          "pytest",
+          "black",
+          "mypy",
+          "poetry",
+          "ruff"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/python-pro.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/python-pro.md",
+        "status": "copied"
+      },
+      {
+        "name": "nextjs-developer",
+        "description": "Expert Next.js developer mastering Next.js 14+ with App Router and full-stack features. Specializes in server components, server actions, performance optimization, and production deployment with focus on building fast, SEO-friendly applications.",
+        "tools": "next, vercel, turbo, prisma, playwright, npm, typescript, tailwind",
+        "color": "blue",
+        "specializations": [
+          "next",
+          "vercel",
+          "turbo",
+          "prisma",
+          "playwright"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/nextjs-developer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/nextjs-developer.md",
+        "status": "copied"
+      },
+      {
+        "name": "cpp-pro",
+        "description": "Expert C++ developer specializing in modern C++20/23, systems programming, and high-performance computing. Masters template metaprogramming, zero-overhead abstractions, and low-level optimization with emphasis on safety and efficiency.",
+        "tools": "Read, Write, MultiEdit, Bash, g++, clang++, cmake, make, gdb, valgrind, clang-tidy",
+        "color": "blue",
+        "specializations": [
+          "clang++",
+          "cmake",
+          "make",
+          "valgrind",
+          "clang-tidy"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/cpp-pro.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/cpp-pro.md",
+        "status": "copied"
+      },
+      {
+        "name": "php-pro",
+        "description": "Expert PHP developer specializing in modern PHP 8.3+ with strong typing, async programming, and enterprise frameworks. Masters Laravel, Symfony, and modern PHP patterns with emphasis on performance and clean architecture.",
+        "tools": "Read, Write, MultiEdit, Bash, php, composer, phpunit, phpstan, php-cs-fixer, psalm",
+        "color": "blue",
+        "specializations": [
+          "composer",
+          "phpunit",
+          "phpstan",
+          "php-cs-fixer",
+          "psalm"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/php-pro.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/php-pro.md",
+        "status": "copied"
+      },
+      {
+        "name": "csharp-developer",
+        "description": "Expert C# developer specializing in modern .NET development, ASP.NET Core, and cloud-native applications. Masters C# 12 features, Blazor, and cross-platform development with emphasis on performance and clean architecture.",
+        "tools": "Read, Write, MultiEdit, Bash, dotnet, msbuild, nuget, xunit, resharper, dotnet-ef",
+        "color": "blue",
+        "specializations": [
+          "dotnet",
+          "msbuild",
+          "nuget",
+          "xunit",
+          "resharper"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/csharp-developer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/csharp-developer.md",
+        "status": "copied"
+      },
+      {
+        "name": "golang-pro",
+        "description": "Expert Go developer specializing in high-performance systems, concurrent programming, and cloud-native microservices. Masters idiomatic Go patterns with emphasis on simplicity, efficiency, and reliability.",
+        "tools": "Read, Write, MultiEdit, Bash, go, gofmt, golint, delve, golangci-lint",
+        "color": "blue",
+        "specializations": [
+          "gofmt",
+          "golint",
+          "delve",
+          "golangci-lint"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/golang-pro.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/golang-pro.md",
+        "status": "copied"
+      },
+      {
+        "name": "flutter-expert",
+        "description": "Expert Flutter specialist mastering Flutter 3+ with modern architecture patterns. Specializes in cross-platform development, custom animations, native integrations, and performance optimization with focus on creating beautiful, native-performance applications.",
+        "tools": "flutter, dart, android-studio, xcode, firebase, fastlane, git, vscode",
+        "color": "blue",
+        "specializations": [
+          "flutter",
+          "dart",
+          "android-studio",
+          "xcode",
+          "firebase"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/flutter-expert.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/flutter-expert.md",
+        "status": "copied"
+      },
+      {
+        "name": "sql-pro",
+        "description": "Expert SQL developer specializing in complex query optimization, database design, and performance tuning across PostgreSQL, MySQL, SQL Server, and Oracle. Masters advanced SQL features, indexing strategies, and data warehousing patterns.",
+        "tools": "Read, Write, MultiEdit, Bash, psql, mysql, sqlite3, sqlplus, explain, analyze",
+        "color": "blue",
+        "specializations": [
+          "psql",
+          "mysql",
+          "sqlite3",
+          "sqlplus",
+          "explain"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/sql-pro.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/sql-pro.md",
+        "status": "copied"
+      },
+      {
+        "name": "javascript-pro",
+        "description": "Expert JavaScript developer specializing in modern ES2023+ features, asynchronous programming, and full-stack development. Masters both browser APIs and Node.js ecosystem with emphasis on performance and clean code patterns.",
+        "tools": "Read, Write, MultiEdit, Bash, node, npm, eslint, prettier, jest, webpack, rollup",
+        "color": "blue",
+        "specializations": [
+          "node",
+          "eslint",
+          "prettier",
+          "jest",
+          "webpack"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/javascript-pro.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/javascript-pro.md",
+        "status": "copied"
+      },
+      {
+        "name": "django-developer",
+        "description": "Expert Django developer mastering Django 4+ with modern Python practices. Specializes in scalable web applications, REST API development, async views, and enterprise patterns with focus on rapid development and security best practices.",
+        "tools": "django-admin, pytest, celery, redis, postgresql, docker, git, python",
+        "color": "blue",
+        "specializations": [
+          "django-admin",
+          "pytest",
+          "celery",
+          "redis",
+          "postgresql"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/django-developer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/django-developer.md",
+        "status": "copied"
+      },
+      {
+        "name": "laravel-specialist",
+        "description": "Expert Laravel specialist mastering Laravel 10+ with modern PHP practices. Specializes in elegant syntax, Eloquent ORM, queue systems, and enterprise features with focus on building scalable web applications and APIs.",
+        "tools": "artisan, composer, pest, redis, mysql, docker, git, php",
+        "color": "blue",
+        "specializations": [
+          "artisan",
+          "composer",
+          "pest",
+          "redis",
+          "mysql"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/laravel-specialist.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/laravel-specialist.md",
+        "status": "copied"
+      },
+      {
+        "name": "kotlin-specialist",
+        "description": "Expert Kotlin developer specializing in coroutines, multiplatform development, and Android applications. Masters functional programming patterns, DSL design, and modern Kotlin features with emphasis on conciseness and safety.",
+        "tools": "Read, Write, MultiEdit, Bash, kotlin, gradle, detekt, ktlint, junit5, kotlinx-coroutines",
+        "color": "blue",
+        "specializations": [
+          "kotlin",
+          "gradle",
+          "detekt",
+          "ktlint",
+          "junit5"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/kotlin-specialist.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/kotlin-specialist.md",
+        "status": "copied"
+      },
+      {
+        "name": "swift-expert",
+        "description": "Expert Swift developer specializing in Swift 5.9+ with async/await, SwiftUI, and protocol-oriented programming. Masters Apple platforms development, server-side Swift, and modern concurrency with emphasis on safety and expressiveness.",
+        "tools": "Read, Write, MultiEdit, Bash, swift, swiftc, xcodebuild, instruments, swiftlint, swift-format",
+        "color": "blue",
+        "specializations": [
+          "swift",
+          "swiftc",
+          "xcodebuild",
+          "instruments",
+          "swiftlint"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/swift-expert.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/swift-expert.md",
+        "status": "copied"
+      },
+      {
+        "name": "rust-engineer",
+        "description": "Expert Rust developer specializing in systems programming, memory safety, and zero-cost abstractions. Masters ownership patterns, async programming, and performance optimization for mission-critical applications.",
+        "tools": "Read, Write, MultiEdit, Bash, cargo, rustc, clippy, rustfmt, miri, rust-analyzer",
+        "color": "blue",
+        "specializations": [
+          "cargo",
+          "rustc",
+          "clippy",
+          "rustfmt",
+          "miri"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/rust-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/rust-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "java-architect",
+        "description": "Senior Java architect specializing in enterprise-grade applications, Spring ecosystem, and cloud-native development. Masters modern Java features, reactive programming, and microservices patterns with focus on scalability and maintainability.",
+        "tools": "Read, Write, MultiEdit, Bash, maven, gradle, javac, junit, spotbugs, jmh, spring-cli",
+        "color": "blue",
+        "specializations": [
+          "maven",
+          "gradle",
+          "javac",
+          "junit",
+          "spotbugs"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/java-architect.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/java-architect.md",
+        "status": "copied"
+      },
+      {
+        "name": "vue-expert",
+        "description": "Expert Vue specialist mastering Vue 3 with Composition API and ecosystem. Specializes in reactivity system, performance optimization, Nuxt 3 development, and enterprise patterns with focus on building elegant, reactive applications.",
+        "tools": "vite, vue-cli, vitest, cypress, vue-devtools, npm, typescript, pinia",
+        "color": "blue",
+        "specializations": [
+          "vite",
+          "vue-cli",
+          "vitest",
+          "cypress",
+          "vue-devtools"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/vue-expert.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/vue-expert.md",
+        "status": "copied"
+      },
+      {
+        "name": "rails-expert",
+        "description": "Expert Rails specialist mastering Rails 7+ with modern conventions. Specializes in convention over configuration, Hotwire/Turbo, Action Cable, and rapid application development with focus on building elegant, maintainable web applications.",
+        "tools": "rails, rspec, sidekiq, redis, postgresql, bundler, git, rubocop",
+        "color": "blue",
+        "specializations": [
+          "rails",
+          "rspec",
+          "sidekiq",
+          "redis",
+          "postgresql"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/02-language-specialists/rails-expert.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/rails-expert.md",
+        "status": "copied"
+      },
+      {
+        "name": "quant-analyst",
+        "description": "Expert quantitative analyst specializing in financial modeling, algorithmic trading, and risk analytics. Masters statistical methods, derivatives pricing, and high-frequency trading with focus on mathematical rigor, performance optimization, and profitable strategy development.",
+        "tools": "python, numpy, pandas, quantlib, zipline, backtrader",
+        "color": "blue",
+        "specializations": [
+          "python",
+          "numpy",
+          "pandas",
+          "quantlib",
+          "zipline"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/07-specialized-domains/quant-analyst.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/quant-analyst.md",
+        "status": "copied"
+      },
+      {
+        "name": "iot-engineer",
+        "description": "Expert IoT engineer specializing in connected device architectures, edge computing, and IoT platform development. Masters IoT protocols, device management, and data pipelines with focus on building scalable, secure, and reliable IoT solutions.",
+        "tools": "mqtt, aws-iot, azure-iot, node-red, mosquitto",
+        "color": "blue",
+        "specializations": [
+          "mqtt",
+          "aws-iot",
+          "azure-iot",
+          "node-red",
+          "mosquitto"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/07-specialized-domains/iot-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/iot-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "fintech-engineer",
+        "description": "Expert fintech engineer specializing in financial systems, regulatory compliance, and secure transaction processing. Masters banking integrations, payment systems, and building scalable financial technology that meets stringent regulatory requirements.",
+        "tools": "Read, Write, MultiEdit, Bash, python, java, kafka, redis, postgresql, kubernetes",
+        "color": "blue",
+        "specializations": [
+          "python",
+          "java",
+          "kafka",
+          "redis",
+          "postgresql"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/07-specialized-domains/fintech-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/fintech-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "mobile-app-developer",
+        "description": "Expert mobile app developer specializing in native and cross-platform development for iOS and Android. Masters performance optimization, platform guidelines, and creating exceptional mobile experiences that users love.",
+        "tools": "Read, Write, MultiEdit, Bash, xcode, android-studio, flutter, react-native, fastlane",
+        "color": "blue",
+        "specializations": [
+          "xcode",
+          "android-studio",
+          "flutter",
+          "react-native",
+          "fastlane"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/07-specialized-domains/mobile-app-developer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/mobile-app-developer.md",
+        "status": "copied"
+      },
+      {
+        "name": "embedded-systems",
+        "description": "Expert embedded systems engineer specializing in microcontroller programming, RTOS development, and hardware optimization. Masters low-level programming, real-time constraints, and resource-limited environments with focus on reliability, efficiency, and hardware-software integration.",
+        "tools": "gcc-arm, platformio, arduino, esp-idf, stm32cube",
+        "color": "blue",
+        "specializations": [
+          "gcc-arm",
+          "platformio",
+          "arduino",
+          "esp-idf",
+          "stm32cube"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/07-specialized-domains/embedded-systems.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/embedded-systems.md",
+        "status": "copied"
+      },
+      {
+        "name": "risk-manager",
+        "description": "Expert risk manager specializing in comprehensive risk assessment, mitigation strategies, and compliance frameworks. Masters risk modeling, stress testing, and regulatory compliance with focus on protecting organizations from financial, operational, and strategic risks.",
+        "tools": "python, R, matlab, excel, sas, sql, tableau",
+        "color": "blue",
+        "specializations": [
+          "python",
+          "matlab",
+          "excel",
+          "tableau"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/07-specialized-domains/risk-manager.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/risk-manager.md",
+        "status": "copied"
+      },
+      {
+        "name": "game-developer",
+        "description": "Expert game developer specializing in game engine programming, graphics optimization, and multiplayer systems. Masters game design patterns, performance optimization, and cross-platform development with focus on creating engaging, performant gaming experiences.",
+        "tools": "unity, unreal, godot, phaser, pixi, three.js",
+        "color": "blue",
+        "specializations": [
+          "unity",
+          "unreal",
+          "godot",
+          "phaser",
+          "pixi"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/07-specialized-domains/game-developer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/game-developer.md",
+        "status": "copied"
+      },
+      {
+        "name": "api-documenter",
+        "description": "Expert API documenter specializing in creating comprehensive, developer-friendly API documentation. Masters OpenAPI/Swagger specifications, interactive documentation portals, and documentation automation with focus on clarity, completeness, and exceptional developer experience.",
+        "tools": "swagger, openapi, postman, insomnia, redoc, slate",
+        "color": "blue",
+        "specializations": [
+          "swagger",
+          "openapi",
+          "postman",
+          "insomnia",
+          "redoc"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/07-specialized-domains/api-documenter.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/api-documenter.md",
+        "status": "copied"
+      },
+      {
+        "name": "blockchain-developer",
+        "description": "Expert blockchain developer specializing in smart contract development, DApp architecture, and DeFi protocols. Masters Solidity, Web3 integration, and blockchain security with focus on building secure, gas-efficient, and innovative decentralized applications.",
+        "tools": "truffle, hardhat, web3, ethers, solidity, foundry",
+        "color": "blue",
+        "specializations": [
+          "truffle",
+          "hardhat",
+          "web3",
+          "ethers",
+          "solidity"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/07-specialized-domains/blockchain-developer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/blockchain-developer.md",
+        "status": "copied"
+      },
+      {
+        "name": "payment-integration",
+        "description": "Expert payment integration specialist mastering payment gateway integration, PCI compliance, and financial transaction processing. Specializes in secure payment flows, multi-currency support, and fraud prevention with focus on reliability, compliance, and seamless user experience.",
+        "tools": "stripe, paypal, square, razorpay, braintree",
+        "color": "blue",
+        "specializations": [
+          "stripe",
+          "paypal",
+          "square",
+          "razorpay",
+          "braintree"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/07-specialized-domains/payment-integration.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/payment-integration.md",
+        "status": "copied"
+      },
+      {
+        "name": "qa-expert",
+        "description": "Expert QA engineer specializing in comprehensive quality assurance, test strategy, and quality metrics. Masters manual and automated testing, test planning, and quality processes with focus on delivering high-quality software through systematic testing.",
+        "tools": "Read, Grep, selenium, cypress, playwright, postman, jira, testrail, browserstack",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "grep",
+          "selenium",
+          "cypress",
+          "playwright"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/04-quality-security/qa-expert.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/qa-expert.md",
+        "status": "copied"
+      },
+      {
+        "name": "code-reviewer",
+        "description": "Expert code reviewer specializing in code quality, security vulnerabilities, and best practices across multiple languages. Masters static analysis, design patterns, and performance optimization with focus on maintainability and technical debt reduction.",
+        "tools": "Read, Grep, Glob, git, eslint, sonarqube, semgrep",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "grep",
+          "glob",
+          "eslint",
+          "sonarqube"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/04-quality-security/code-reviewer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/code-reviewer.md",
+        "status": "copied"
+      },
+      {
+        "name": "security-auditor",
+        "description": "Expert security auditor specializing in comprehensive security assessments, compliance validation, and risk management. Masters security frameworks, audit methodologies, and compliance standards with focus on identifying vulnerabilities and ensuring regulatory adherence.",
+        "tools": "Read, Grep, nessus, qualys, openvas, prowler, scout suite, compliance checker",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "grep",
+          "nessus",
+          "qualys",
+          "openvas"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/04-quality-security/security-auditor.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/security-auditor.md",
+        "status": "copied"
+      },
+      {
+        "name": "error-detective",
+        "description": "Expert error detective specializing in complex error pattern analysis, correlation, and root cause discovery. Masters distributed system debugging, error tracking, and anomaly detection with focus on finding hidden connections and preventing error cascades.",
+        "tools": "Read, Grep, Glob, elasticsearch, datadog, sentry, loggly, splunk",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "grep",
+          "glob",
+          "elasticsearch",
+          "datadog"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/04-quality-security/error-detective.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/error-detective.md",
+        "status": "copied"
+      },
+      {
+        "name": "debugger",
+        "description": "Expert debugger specializing in complex issue diagnosis, root cause analysis, and systematic problem-solving. Masters debugging tools, techniques, and methodologies across multiple languages and environments with focus on efficient issue resolution.",
+        "tools": "Read, Grep, Glob, gdb, lldb, chrome-devtools, vscode-debugger, strace, tcpdump",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "grep",
+          "glob",
+          "lldb",
+          "chrome-devtools"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/04-quality-security/debugger.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/debugger.md",
+        "status": "copied"
+      },
+      {
+        "name": "compliance-auditor",
+        "description": "Expert compliance auditor specializing in regulatory frameworks, data privacy laws, and security standards. Masters GDPR, HIPAA, PCI DSS, SOC 2, and ISO certifications with focus on automated compliance validation and continuous monitoring.",
+        "tools": "Read, Write, MultiEdit, Bash, prowler, scout, checkov, terrascan, cloudsploit, lynis",
+        "color": "blue",
+        "specializations": [
+          "prowler",
+          "scout",
+          "checkov",
+          "terrascan",
+          "cloudsploit"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/04-quality-security/compliance-auditor.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/compliance-auditor.md",
+        "status": "copied"
+      },
+      {
+        "name": "accessibility-tester",
+        "description": "Expert accessibility tester specializing in WCAG compliance, inclusive design, and universal access. Masters screen reader compatibility, keyboard navigation, and assistive technology integration with focus on creating barrier-free digital experiences.",
+        "tools": "Read, Write, MultiEdit, Bash, axe, wave, nvda, jaws, voiceover, lighthouse, pa11y",
+        "color": "blue",
+        "specializations": [
+          "wave",
+          "nvda",
+          "jaws",
+          "voiceover",
+          "lighthouse"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/04-quality-security/accessibility-tester.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/accessibility-tester.md",
+        "status": "copied"
+      },
+      {
+        "name": "architect-reviewer",
+        "description": "Expert architecture reviewer specializing in system design validation, architectural patterns, and technical decision assessment. Masters scalability analysis, technology stack evaluation, and evolutionary architecture with focus on maintainability and long-term viability.",
+        "tools": "Read, plantuml, structurizr, archunit, sonarqube",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "plantuml",
+          "structurizr",
+          "archunit",
+          "sonarqube"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/04-quality-security/architect-reviewer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/architect-reviewer.md",
+        "status": "copied"
+      },
+      {
+        "name": "penetration-tester",
+        "description": "Expert penetration tester specializing in ethical hacking, vulnerability assessment, and security testing. Masters offensive security techniques, exploit development, and comprehensive security assessments with focus on identifying and validating security weaknesses.",
+        "tools": "Read, Grep, nmap, metasploit, burpsuite, sqlmap, wireshark, nikto, hydra",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "grep",
+          "nmap",
+          "metasploit",
+          "burpsuite"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/04-quality-security/penetration-tester.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/penetration-tester.md",
+        "status": "copied"
+      },
+      {
+        "name": "performance-engineer",
+        "description": "Expert performance engineer specializing in system optimization, bottleneck identification, and scalability engineering. Masters performance testing, profiling, and tuning across applications, databases, and infrastructure with focus on achieving optimal response times and resource efficiency.",
+        "tools": "Read, Grep, jmeter, gatling, locust, newrelic, datadog, prometheus, perf, flamegraph",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "grep",
+          "jmeter",
+          "gatling",
+          "locust"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/04-quality-security/performance-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/performance-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "chaos-engineer",
+        "description": "Expert chaos engineer specializing in controlled failure injection, resilience testing, and building antifragile systems. Masters chaos experiments, game day planning, and continuous resilience improvement with focus on learning from failure.",
+        "tools": "Read, Write, MultiEdit, Bash, chaostoolkit, litmus, gremlin, pumba, powerfulseal, chaosblade",
+        "color": "blue",
+        "specializations": [
+          "chaostoolkit",
+          "litmus",
+          "gremlin",
+          "pumba",
+          "powerfulseal"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/04-quality-security/chaos-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/chaos-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "test-automator",
+        "description": "Expert test automation engineer specializing in building robust test frameworks, CI/CD integration, and comprehensive test coverage. Masters multiple automation tools and frameworks with focus on maintainable, scalable, and efficient automated testing solutions.",
+        "tools": "Read, Write, selenium, cypress, playwright, pytest, jest, appium, k6, jenkins",
+        "color": "blue",
+        "specializations": [
+          "read",
+          "write",
+          "selenium",
+          "cypress",
+          "playwright"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/04-quality-security/test-automator.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/test-automator.md",
+        "status": "copied"
+      },
+      {
+        "name": "backend-developer",
+        "description": "Senior backend engineer specializing in scalable API development and microservices architecture. Builds robust server-side solutions with focus on performance, security, and maintainability.",
+        "tools": "Read, Write, MultiEdit, Bash, Docker, database, redis, postgresql",
+        "color": "blue",
+        "specializations": [
+          "database",
+          "redis",
+          "postgresql",
+          "docker"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/01-core-development/backend-developer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/backend-developer.md",
+        "status": "copied"
+      },
+      {
+        "name": "fullstack-developer",
+        "description": "End-to-end feature owner with expertise across the entire stack. Delivers complete solutions from database to UI with focus on seamless integration and optimal user experience.",
+        "tools": "Read, Write, MultiEdit, Bash, Docker, database, redis, postgresql, magic, context7, playwright",
+        "color": "blue",
+        "specializations": [
+          "database/postgresql",
+          "redis",
+          "magic",
+          "context7",
+          "playwright"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/01-core-development/fullstack-developer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/fullstack-developer.md",
+        "status": "copied"
+      },
+      {
+        "name": "api-designer",
+        "description": "API architecture expert designing scalable, developer-friendly interfaces. Creates REST and GraphQL APIs with comprehensive documentation, focusing on consistency, performance, and developer experience.",
+        "tools": "Read, Write, MultiEdit, Bash, openapi-generator, graphql-codegen, postman, swagger-ui, spectral",
+        "color": "blue",
+        "specializations": [
+          "openapi-generator",
+          "graphql-codegen",
+          "postman",
+          "swagger-ui",
+          "spectral"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/01-core-development/api-designer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/api-designer.md",
+        "status": "copied"
+      },
+      {
+        "name": "graphql-architect",
+        "description": "GraphQL schema architect designing efficient, scalable API graphs. Masters federation, subscriptions, and query optimization while ensuring type safety and developer experience.",
+        "tools": "Read, Write, MultiEdit, Bash, apollo-rover, graphql-codegen, dataloader, graphql-inspector, federation-tools",
+        "color": "blue",
+        "specializations": [
+          "apollo-rover",
+          "graphql-codegen",
+          "dataloader",
+          "graphql-inspector",
+          "federation-tools"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/01-core-development/graphql-architect.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/graphql-architect.md",
+        "status": "copied"
+      },
+      {
+        "name": "frontend-developer",
+        "description": "Expert UI engineer focused on crafting robust, scalable frontend solutions. Builds high-quality React components prioritizing maintainability, user experience, and web standards compliance.",
+        "tools": "Read, Write, MultiEdit, Bash, magic, context7, playwright",
+        "color": "blue",
+        "specializations": [
+          "magic",
+          "context7",
+          "playwright"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/01-core-development/frontend-developer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/frontend-developer.md",
+        "status": "copied"
+      },
+      {
+        "name": "mobile-developer",
+        "description": "Cross-platform mobile specialist building performant native experiences. Creates optimized mobile applications with React Native and Flutter, focusing on platform-specific excellence and battery efficiency.",
+        "tools": "Read, Write, MultiEdit, Bash, adb, xcode, gradle, cocoapods, fastlane",
+        "color": "blue",
+        "specializations": [
+          "xcode",
+          "gradle",
+          "cocoapods",
+          "fastlane"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/01-core-development/mobile-developer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/mobile-developer.md",
+        "status": "copied"
+      },
+      {
+        "name": "websocket-engineer",
+        "description": "Real-time communication specialist implementing scalable WebSocket architectures. Masters bidirectional protocols, event-driven systems, and low-latency messaging for interactive applications.",
+        "tools": "Read, Write, MultiEdit, Bash, socket.io, ws, redis-pubsub, rabbitmq, centrifugo",
+        "color": "blue",
+        "specializations": [
+          "socket.io",
+          "redis-pubsub",
+          "rabbitmq",
+          "centrifugo"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/01-core-development/websocket-engineer.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/websocket-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "electron-pro",
+        "description": "Desktop application specialist building secure cross-platform solutions. Develops Electron apps with native OS integration, focusing on security, performance, and seamless user experience.",
+        "tools": "Read, Write, MultiEdit, Bash, electron-forge, electron-builder, node-gyp, codesign, notarytool",
+        "color": "blue",
+        "specializations": [
+          "electron-forge",
+          "electron-builder",
+          "node-gyp",
+          "codesign",
+          "notarytool"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/01-core-development/electron-pro.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/electron-pro.md",
+        "status": "copied"
+      },
+      {
+        "name": "microservices-architect",
+        "description": "Distributed systems architect designing scalable microservice ecosystems. Masters service boundaries, communication patterns, and operational excellence in cloud-native environments.",
+        "tools": "Read, Write, MultiEdit, Bash, kubernetes, istio, consul, kafka, prometheus",
+        "color": "blue",
+        "specializations": [
+          "kubernetes",
+          "istio",
+          "consul",
+          "kafka",
+          "prometheus"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/awesome-claude-code-subagents/categories/01-core-development/microservices-architect.md",
+        "source": "awesome-claude-code-subagents",
+        "local_path": "template-repositories/agents/microservices-architect.md",
+        "status": "copied"
+      },
+      {
+        "name": "ui-designer",
+        "description": "Ui Designer specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/design/ui-designer.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/ui-designer.md",
+        "status": "copied"
+      },
+      {
+        "name": "ux-researcher",
+        "description": "Ux Researcher specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/design/ux-researcher.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/ux-researcher.md",
+        "status": "copied"
+      },
+      {
+        "name": "visual-storyteller",
+        "description": "Visual Storyteller specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/design/visual-storyteller.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/visual-storyteller.md",
+        "status": "copied"
+      },
+      {
+        "name": "whimsy-injector",
+        "description": "PROACTIVELY use this agent after any UI/UX changes to ensure delightful, playful elements are incorporated. This agent specializes in adding joy, surprise, and memorable moments to user experiences. The agent should be triggered automatically when design or interface updates are made. Examples:\n\n<example>\nContext: After implementing new features or UI components\nuser: \"I've added the new onboarding flow for the app\"\nassistant: \"Great! I've implemented the onboarding flow. Now let me use the whimsy-injector agent to add delightful touches that will make users smile during their first experience.\"\n<commentary>\nEvery new UI addition is an opportunity to inject personality and delight.\n</commentary>\n</example>\n\n<example>\nContext: When error states or empty states are created\nuser: \"Set up error handling for the payment flow\"\nassistant: \"I've implemented the error handling. Let me use the whimsy-injector agent to transform those error messages into moments that reduce user frustration.\"\n<commentary>\nError states are perfect opportunities to show personality and maintain user goodwill.\n</commentary>\n</example>\n\n<example>\nContext: After creating standard UI components\nuser: \"Build a loading spinner for the data fetch\"\nassistant: \"I've created the basic loading functionality. Now I'll use the whimsy-injector agent to make the loading experience entertaining rather than frustrating.\"\n<commentary>\nLoading states can become memorable moments instead of boring waits.\n</commentary>\n</example>\n\n<example>\nContext: When reviewing completed features\nuser: \"The user profile page is done\"\nassistant: \"Perfect! The profile page is complete. Let me use the whimsy-injector agent to audit it for opportunities to add surprising delights and shareable moments.\"\n<commentary>\nCompleted features often miss opportunities for delight that can differentiate the app.\n</commentary>\n</example>\n\n@base-config.yml",
+        "tools": [],
+        "color": "yellow",
+        "specializations": [
+          "onboarding",
+          "loading-states",
+          "empty-states",
+          "success-moments",
+          "error-states"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/design/whimsy-injector.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/whimsy-injector.md",
+        "status": "copied"
+      },
+      {
+        "name": "brand-guardian",
+        "description": "Brand Guardian specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/design/brand-guardian.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/brand-guardian.md",
+        "status": "copied"
+      },
+      {
+        "name": "studio-coach",
+        "description": "PROACTIVELY use this agent when complex multi-agent tasks begin, when agents seem stuck or overwhelmed, or when the team needs motivation and coordination. This agent serves as the elite performance coach for all other agents, ensuring they operate at their highest level while maintaining composure and excellence. Should be triggered automatically at the start of challenging projects or when detecting agent confusion. Examples:\n\n<example>\nContext: Starting a complex project requiring multiple agents\nuser: \"We need to build a viral TikTok app in 2 weeks\"\nassistant: \"This is an ambitious goal that will require our A-team! Let me bring in the studio-coach to coordinate our agents and ensure everyone performs at their peak.\"\n<commentary>\nComplex projects benefit from having a coach to keep all agents aligned and motivated.\n</commentary>\n</example>\n\n<example>\nContext: When an agent seems stuck or is producing subpar results\nagent: \"I'm having trouble identifying the right trends...\"\nassistant: \"Let me bring in the studio-coach to help refocus and elevate your approach.\"\n<commentary>\nAgents can get overwhelmed or lose focus - the coach helps them recenter and excel.\n</commentary>\n</example>\n\n<example>\nContext: Before launching a major sprint or initiative\nuser: \"Tomorrow we start the 6-day sprint for our biggest project yet\"\nassistant: \"Time to rally the team! I'll have the studio-coach prepare everyone mentally and strategically for peak performance.\"\n<commentary>\nPre-sprint coaching ensures all agents start with clarity, confidence, and coordination.\n</commentary>\n</example>\n\n<example>\nContext: When celebrating wins or learning from failures\nuser: \"Our app just hit #1 on the App Store!\"\nassistant: \"Incredible achievement! Let me bring in the studio-coach to celebrate with the team and capture what made this success possible.\"\n<commentary>\nThe coach helps institutionalize wins and extract learnings from both successes and failures.\n</commentary>\n</example>\n\n@base-config.yml",
+        "tools": [],
+        "color": "gold",
+        "specializations": [
+          "rapid-prototyper",
+          "trend-researcher",
+          "whimsy-injector",
+          "support-responder",
+          "tool-evaluator"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/bonus/studio-coach.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/studio-coach.md",
+        "status": "copied"
+      },
+      {
+        "name": "joker",
+        "description": "Use this agent when you need to lighten the mood, create funny content, or add humor to any situation. This agent specializes in dad jokes, programming puns, and startup humor. Examples:\n\n<example>\nContext: Team needs a laugh during a stressful sprint\nuser: \"We've been debugging for hours and everyone's frustrated\"\nassistant: \"Time for a morale boost! Let me use the joker agent to share some programming humor.\"\n<commentary>\nHumor can help reset team energy during challenging moments.\n</commentary>\n</example>\n\n<example>\nContext: Creating fun error messages\nuser: \"Our 404 page is boring\"\nassistant: \"Let's make that error page memorable! I'll use the joker agent to create some funny 404 messages.\"\n<commentary>\nHumorous error pages can turn frustration into delight.\n</commentary>\n</example>\n\n@base-config.yml",
+        "tools": [],
+        "color": "yellow",
+        "specializations": [
+          "tech-humor-delivery",
+          "situational-comedy"
+        ],
+        "quality_score": 1,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/bonus/joker.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/joker.md",
+        "status": "copied"
+      },
+      {
+        "name": "ai-engineer",
+        "description": "Use this agent when implementing AI/ML features, integrating language models, building recommendation systems, or adding intelligent automation to applications. This agent specializes in practical AI implementation for rapid deployment. Examples:\n\n<example>\nContext: Adding AI features to an app\nuser: \"We need AI-powered content recommendations\"\nassistant: \"I'll implement a smart recommendation engine. Let me use the ai-engineer agent to build an ML pipeline that learns from user behavior.\"\n<commentary>\nRecommendation systems require careful ML implementation and continuous learning capabilities.\n</commentary>\n</example>\n\n<example>\nContext: Integrating language models\nuser: \"Add an AI chatbot to help users navigate our app\"\nassistant: \"I'll integrate a conversational AI assistant. Let me use the ai-engineer agent to implement proper prompt engineering and response handling.\"\n<commentary>\nLLM integration requires expertise in prompt design, token management, and response streaming.\n</commentary>\n</example>\n\n<example>\nContext: Implementing computer vision features\nuser: \"Users should be able to search products by taking a photo\"\nassistant: \"I'll implement visual search using computer vision. Let me use the ai-engineer agent to integrate image recognition and similarity matching.\"\n<commentary>\nComputer vision features require efficient processing and accurate model selection.\n</commentary>\n</example>\n\n@base-config.yml",
+        "tools": [],
+        "color": "cyan",
+        "specializations": [
+          "llms",
+          "frameworks",
+          "ml-ops",
+          "vector-dbs",
+          "vision"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/engineering/ai-engineer.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/ai-engineer.md",
+        "status": "copied"
+      },
+      {
+        "name": "backend-architect",
+        "description": "Use this agent when designing APIs, building server-side logic, implementing databases, or architecting scalable backend systems. This agent specializes in creating robust, secure, and performant backend services.\n\n@base-config.yml\n\nExamples:\\n\\n<example>\\nContext: Designing a new API\\nuser: \"We need an API for our social sharing feature\"\\nassistant: \"I'll design a RESTful API with proper authentication and rate limiting. Let me use the backend-architect agent to create a scalable backend architecture.\"\\n<commentary>\\nAPI design requires careful consideration of security, scalability, and maintainability.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Database design and optimization\\nuser: \"Our queries are getting slow as we scale\"\\nassistant: \"Database performance is critical at scale. I'll use the backend-architect agent to optimize queries and implement proper indexing strategies.\"\\n<commentary>\\nDatabase optimization requires deep understanding of query patterns and indexing strategies.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Implementing authentication system\\nuser: \"Add OAuth2 login with Google and GitHub\"\\nassistant: \"I'll implement secure OAuth2 authentication. Let me use the backend-architect agent to ensure proper token handling and security measures.\"\\n<commentary>\\nAuthentication systems require careful security considerations and proper implementation.\\n</commentary>\\n</example>",
+        "tools": [],
+        "color": "purple",
+        "specializations": [
+          "languages",
+          "frameworks",
+          "databases",
+          "message-queues",
+          "cloud"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/engineering/backend-architect.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/backend-architect.md",
+        "status": "copied"
+      },
+      {
+        "name": "frontend-developer",
+        "description": "Use this agent when building user interfaces, implementing React/Vue/Angular components, handling state management, or optimizing frontend performance. This agent excels at creating responsive, accessible, and performant web applications. Examples:\n\n<example>\nContext: Building a new user interface\nuser: \"Create a dashboard for displaying user analytics\"\nassistant: \"I'll build an analytics dashboard with interactive charts. Let me use the frontend-developer agent to create a responsive, data-rich interface.\"\n<commentary>\nComplex UI components require frontend expertise for proper implementation and performance.\n</commentary>\n</example>\n\n<example>\nContext: Fixing UI/UX issues\nuser: \"The mobile navigation is broken on small screens\"\nassistant: \"I'll fix the responsive navigation issues. Let me use the frontend-developer agent to ensure it works perfectly across all device sizes.\"\n<commentary>\nResponsive design issues require deep understanding of CSS and mobile-first development.\n</commentary>\n</example>\n\n<example>\nContext: Optimizing frontend performance\nuser: \"Our app feels sluggish when loading large datasets\"\nassistant: \"Performance optimization is crucial for user experience. I'll use the frontend-developer agent to implement virtualization and optimize rendering.\"\n<commentary>\nFrontend performance requires expertise in React rendering, memoization, and data handling.\n</commentary>\n</example>\n\n@base-config.yml",
+        "tools": [],
+        "color": "blue",
+        "specializations": [
+          "react",
+          "vue-3",
+          "angular",
+          "svelte",
+          "next.js/remix"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/engineering/frontend-developer.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/frontend-developer.md",
+        "status": "copied"
+      },
+      {
+        "name": "devops-automator",
+        "description": "Use this agent when setting up CI/CD pipelines, configuring cloud infrastructure, implementing monitoring systems, or automating deployment processes. This agent specializes in making deployment and operations seamless for rapid development cycles. Examples:\n\n<example>\nContext: Setting up automated deployments\nuser: \"We need automatic deployments when we push to main\"\nassistant: \"I'll set up a complete CI/CD pipeline. Let me use the devops-automator agent to configure automated testing, building, and deployment.\"\n<commentary>\nAutomated deployments require careful pipeline configuration and proper testing stages.\n</commentary>\n</example>\n\n<example>\nContext: Infrastructure scaling issues\nuser: \"Our app crashes when we get traffic spikes\"\nassistant: \"I'll implement auto-scaling and load balancing. Let me use the devops-automator agent to ensure your infrastructure handles traffic gracefully.\"\n<commentary>\nScaling requires proper infrastructure setup with monitoring and automatic responses.\n</commentary>\n</example>\n\n<example>\nContext: Monitoring and alerting setup\nuser: \"We have no idea when things break in production\"\nassistant: \"Observability is crucial for rapid iteration. I'll use the devops-automator agent to set up comprehensive monitoring and alerting.\"\n<commentary>\nProper monitoring enables fast issue detection and resolution in production.\n</commentary>\n</example>\n\n@base-config.yml",
+        "tools": [],
+        "color": "orange",
+        "specializations": [
+          "ci/cd",
+          "cloud",
+          "containers",
+          "monitoring",
+          "logging"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/engineering/devops-automator.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/devops-automator.md",
+        "status": "copied"
+      },
+      {
+        "name": "mobile-app-builder",
+        "description": "Use this agent when developing native iOS or Android applications, implementing React Native features, or optimizing mobile performance. This agent specializes in creating smooth, native-feeling mobile experiences. Examples:\n\n<example>\nContext: Building a new mobile app\nuser: \"Create a TikTok-style video feed for our app\"\nassistant: \"I'll build a performant video feed with smooth scrolling. Let me use the mobile-app-builder agent to implement native performance optimizations.\"\n<commentary>\nVideo feeds require careful mobile optimization for smooth scrolling and memory management.\n</commentary>\n</example>\n\n<example>\nContext: Implementing mobile-specific features\nuser: \"Add push notifications and biometric authentication\"\nassistant: \"I'll implement native push notifications and Face ID/fingerprint auth. Let me use the mobile-app-builder agent to ensure proper platform integration.\"\n<commentary>\nNative features require platform-specific implementation and proper permissions handling.\n</commentary>\n</example>\n\n<example>\nContext: Cross-platform development\nuser: \"We need this feature on both iOS and Android\"\nassistant: \"I'll implement it using React Native for code reuse. Let me use the mobile-app-builder agent to ensure native performance on both platforms.\"\n<commentary>\nCross-platform development requires balancing code reuse with platform-specific optimizations.\n</commentary>\n</example>\n\n@base-config.yml",
+        "tools": [],
+        "color": "green",
+        "specializations": [
+          "android",
+          "cross-platform",
+          "backend",
+          "testing",
+          "network-efficiency"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/engineering/mobile-app-builder.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/mobile-app-builder.md",
+        "status": "copied"
+      },
+      {
+        "name": "test-writer-fixer",
+        "description": "Use this agent when code changes have been made and you need to write new tests, run existing tests, analyze failures, and fix them while maintaining test integrity. This agent should be triggered proactively after code modifications to ensure comprehensive test coverage and suite health. Examples:\n\n<example>\nContext: The user has just implemented a new feature or modified existing code.\nuser: \"I've updated the user authentication logic to support OAuth\"\nassistant: \"I've successfully updated the authentication logic. Now let me run the test-writer-fixer agent to ensure all tests pass with these changes.\"\n<commentary>\nSince code changes were made, use the Task tool to launch the test-writer-fixer agent to run relevant tests and fix any failures.\n</commentary>\n</example>\n\n<example>\nContext: The user has refactored a module or changed function signatures.\nuser: \"Please refactor this payment processing module to use async/await\"\nassistant: \"I've completed the refactoring to use async/await throughout the payment module.\"\n<function call omitted for brevity>\nassistant: \"Now I'll use the test-writer-fixer agent to run the tests and fix any issues caused by the refactoring.\"\n<commentary>\nAfter refactoring code, proactively use the test-writer-fixer agent to ensure tests still pass.\n</commentary>\n</example>\n\n<example>\nContext: The user has fixed a bug or made a critical change.\nuser: \"Fix the race condition in the data synchronization service\"\nassistant: \"I've identified and fixed the race condition by implementing proper locking mechanisms.\"\n<function call omitted for brevity>\nassistant: \"Let me run the test-writer-fixer agent to verify the fix doesn't break existing functionality.\"\n<commentary>\nAfter bug fixes, use the test-writer-fixer agent to ensure the fix works and doesn't introduce regressions.\n</commentary>\n</example>\n\n<example>\nContext: Code lacks test coverage for critical functionality.\nuser: \"Our payment processing module has no tests\"\nassistant: \"That's a critical gap. Let me use the test-writer-fixer agent to create comprehensive tests for the payment module including edge cases and error scenarios.\"\n<commentary>\nCritical modules without tests are high-risk areas that need immediate test coverage.\n</commentary>\n</example>\n\n<example>\nContext: After implementing a new feature that needs tests.\nuser: \"I've added the social sharing functionality\"\nassistant: \"Great! The social sharing is implemented. Now let me use the test-writer-fixer agent to write tests that ensure this feature works correctly across different platforms.\"\n<commentary>\nNew features should always include comprehensive test coverage from the start.\n</commentary>\n</example>\n\n@base-config.yml",
+        "tools": [],
+        "color": "cyan",
+        "specializations": [
+          "if-code-lacks-tests",
+          "if-unsure-about-test-intent",
+          "javascript/typescript",
+          "python",
+          "ruby"
+        ],
+        "quality_score": 5,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/engineering/test-writer-fixer.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/test-writer-fixer.md",
+        "status": "copied"
+      },
+      {
+        "name": "rapid-prototyper",
+        "description": "Use this agent when you need to quickly create a new application prototype, MVP, or proof-of-concept within the 6-day development cycle. This agent specializes in scaffolding projects, integrating trending features, and building functional demos rapidly. Examples:\n\n<example>\nContext: Starting a new experiment or app idea\nuser: \"Create a new app that helps people overcome phone anxiety\"\nassistant: \"I'll help you create a phone anxiety app. Let me use the rapid-prototyper agent to scaffold this project and build an MVP.\"\n<commentary>\nWhen starting any new project or experiment, use the rapid-prototyper to quickly set up the foundation and core features.\n</commentary>\n</example>\n\n<example>\nContext: Need to test a trending feature or viral concept\nuser: \"I saw this TikTok trend about AI avatars, can we build something around that?\"\nassistant: \"That's a great trending opportunity! I'll use the rapid-prototyper agent to quickly build a prototype app featuring AI avatars.\"\n<commentary>\nFor capitalizing on trends and viral content, the rapid-prototyper can quickly create testable prototypes.\n</commentary>\n</example>\n\n<example>\nContext: Validating a business idea with minimal investment\nuser: \"We need to test if people would pay for a subscription box curation app\"\nassistant: \"Let's validate that idea with a quick prototype. I'll use the rapid-prototyper agent to build an MVP with basic subscription and curation features.\"\n<commentary>\nBusiness validation requires fast prototyping to test market fit before full investment.\n</commentary>\n</example>\n\n<example>\nContext: Creating demo apps for stakeholder presentations\nuser: \"We're meeting with investors next week and need to show them our vision\"\nassistant: \"I'll help create a compelling demo. Let me use the rapid-prototyper agent to build a functional prototype that showcases your vision.\"\n<commentary>\nInvestor demos and stakeholder presentations benefit from working prototypes rather than just mockups.\n</commentary>\n</example>\n\n@base-config.yml",
+        "tools": [],
+        "color": "green",
+        "specializations": [
+          "week-1-2",
+          "week-3-4",
+          "week-5",
+          "week-6",
+          "frontend"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/engineering/rapid-prototyper.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/rapid-prototyper.md",
+        "status": "copied"
+      },
+      {
+        "name": "app-store-optimizer",
+        "description": "App Store Optimizer specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/marketing/app-store-optimizer.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/app-store-optimizer.md",
+        "status": "copied"
+      },
+      {
+        "name": "growth-hacker",
+        "description": "Use this agent for rapid user acquisition, viral loop creation, and data-driven growth experiments. This agent combines marketing, product, and data analysis skills to identify and exploit growth opportunities, creating scalable systems that drive exponential user growth.\n\n@base-config.yml",
+        "tools": [],
+        "color": "green",
+        "specializations": [
+          "viral-mechanics",
+          "conversion-optimization",
+          "product-led-growth",
+          "data-analysis",
+          "automation"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/marketing/growth-hacker.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/growth-hacker.md",
+        "status": "copied"
+      },
+      {
+        "name": "tiktok-strategist",
+        "description": "Use this agent when you need to create TikTok marketing strategies, develop viral content ideas, plan TikTok campaigns, or optimize for TikTok's algorithm. This agent specializes in creating shareable moments and leveraging TikTok trends for app growth. Examples:\n\n<example>\nContext: Launching a new app and need TikTok strategy\nuser: \"We're launching our phone anxiety app next week. How should we approach TikTok?\"\nassistant: \"TikTok will be crucial for your launch. Let me use the tiktok-strategist agent to create a comprehensive TikTok marketing strategy for your phone anxiety app.\"\n<commentary>\nNew app launches benefit from TikTok's viral potential and young user base.\n</commentary>\n</example>\n\n<example>\nContext: Creating viral content for an existing app\nuser: \"Our meditation app needs more downloads. What kind of TikTok content should we make?\"\nassistant: \"I'll help you create viral TikTok content ideas. Let me use the tiktok-strategist agent to develop content that showcases your app in trending formats.\"\n<commentary>\nExisting apps can boost downloads through strategic TikTok content that fits platform culture.\n</commentary>\n</example>\n\n<example>\nContext: Identifying TikTok influencers for partnerships\nuser: \"Should we work with TikTok creators to promote our app?\"\nassistant: \"Creator partnerships can be very effective. Let me use the tiktok-strategist agent to identify the right creators and collaboration strategies for your app.\"\n<commentary>\nInfluencer partnerships on TikTok can provide authentic reach to target audiences.\n</commentary>\n</example>\n\n<example>\nContext: Optimizing app features for TikTok sharing\nuser: \"How can we make our app more TikTok-friendly?\"\nassistant: \"Making your app TikTok-native is smart. I'll use the tiktok-strategist agent to identify features and moments in your app that users would want to share on TikTok.\"\n<commentary>\nApps with built-in TikTok-worthy moments see higher organic growth through user-generated content.\n</commentary>\n</example>\n\n@base-config.yml",
+        "tools": [],
+        "color": "pink",
+        "specializations": [
+          "duet-bait",
+          "stitch-setups",
+          "challenge-creation",
+          "sound-origins",
+          "series-hooks"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/marketing/tiktok-strategist.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/tiktok-strategist.md",
+        "status": "copied"
+      },
+      {
+        "name": "instagram-curator",
+        "description": "Use this agent for visual content strategy, Stories, Reels, and Instagram growth tactics. This agent understands the platform's algorithm, visual aesthetics, and engagement patterns to create compelling content strategies that drive followers, engagement, and conversions.\n\n@base-config.yml",
+        "tools": [],
+        "color": "pink",
+        "specializations": [
+          "algorithm-mastery",
+          "visual-storytelling",
+          "trend-analysis",
+          "analytics-interpretation",
+          "creative-direction"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/marketing/instagram-curator.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/instagram-curator.md",
+        "status": "copied"
+      },
+      {
+        "name": "twitter-engager",
+        "description": "Use this agent for real-time social media engagement, trending topic leverage, and viral tweet creation. This agent masters the art of concise communication, thread storytelling, and community building through strategic engagement on Twitter/X platform.\n\n@base-config.yml",
+        "tools": [],
+        "color": "blue",
+        "specializations": [
+          "viral-mechanics",
+          "trend-jacking",
+          "concise-copywriting",
+          "community-psychology",
+          "platform-features"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/marketing/twitter-engager.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/twitter-engager.md",
+        "status": "copied"
+      },
+      {
+        "name": "content-creator",
+        "description": "Use this agent for cross-platform content generation, from long-form blog posts to engaging video scripts and social media content. This agent understands how to adapt messaging across different formats while maintaining brand consistency and maximizing impact for each platform's unique requirements.\n\n@base-config.yml",
+        "tools": [],
+        "color": "purple",
+        "specializations": [
+          "content-writing",
+          "video-scripting",
+          "social-media-content",
+          "email-marketing",
+          "content-strategy"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/marketing/content-creator.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/content-creator.md",
+        "status": "copied"
+      },
+      {
+        "name": "reddit-community-builder",
+        "description": "Use this agent for authentic community engagement, organic growth through valuable participation, and navigating Reddit's unique culture. This agent understands the importance of providing value first, building genuine relationships, and respecting community norms while strategically growing brand presence.\n\n@base-config.yml",
+        "tools": [],
+        "color": "orange",
+        "specializations": [
+          "reddit-culture",
+          "community-psychology",
+          "content-strategy",
+          "reputation-building",
+          "crisis-navigation"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/marketing/reddit-community-builder.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/reddit-community-builder.md",
+        "status": "copied"
+      },
+      {
+        "name": "project-shipper",
+        "description": "PROACTIVELY use this agent when approaching launch milestones, release deadlines, or go-to-market activities. This agent specializes in coordinating launches, managing release processes, and executing go-to-market strategies within the 6-day development cycle. Should be triggered automatically when release dates are set, launch plans are needed, or market positioning is discussed. Examples:\n\n<example>\nContext: When preparing for a major feature release\nuser: \"We're planning to launch the AI creator tools next week\"\nassistant: \"Excellent! A major feature launch requires careful coordination. Let me use the project-shipper agent to ensure all launch activities are properly orchestrated and nothing falls through the cracks.\"\n<commentary>\nMajor launches need comprehensive coordination across engineering, marketing, and support teams.\n</commentary>\n</example>\n\n<example>\nContext: During release planning discussions\nuser: \"We need to ship three updates this sprint\"\nassistant: \"Managing multiple releases requires careful orchestration. I'll use the project-shipper agent to create a coordinated release calendar and ensure each update gets proper attention.\"\n<commentary>\nMultiple concurrent releases need strategic spacing and resource allocation.\n</commentary>\n</example>\n\n<example>\nContext: When go-to-market strategy is needed\nuser: \"How should we position the new viral video features?\"\nassistant: \"Positioning is crucial for feature adoption. Let me use the project-shipper agent to develop a comprehensive go-to-market strategy that resonates with our target creators.\"\n<commentary>\nEvery feature needs a story that connects with users' aspirations and pain points.\n</commentary>\n</example>\n\n<example>\nContext: Post-launch monitoring\nuser: \"The collaboration feature launched yesterday\"\nassistant: \"Great! The critical first 48 hours determine success. I'll use the project-shipper agent to monitor launch metrics and coordinate any necessary rapid responses.\"\n<commentary>\nLaunch success requires active monitoring and quick pivots based on user reception.\n</commentary>\n</example>\n\n@base-config.yml",
+        "tools": [],
+        "color": "purple",
+        "specializations": [
+          "the-hook",
+          "the-story",
+          "the-proof",
+          "the-action",
+          "the-amplification"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/project-management/project-shipper.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/project-shipper.md",
+        "status": "copied"
+      },
+      {
+        "name": "studio-producer",
+        "description": "PROACTIVELY use this agent when coordinating across multiple teams, allocating resources, or optimizing studio workflows. This agent specializes in cross-functional coordination, resource management, and process optimization within the 6-day development cycle. Should be triggered automatically when team dependencies arise, resource conflicts occur, or workflow improvements are needed. Examples:\n\n<example>\nContext: When multiple teams need to collaborate\nuser: \"We need the design and engineering teams to work together on the new creator dashboard\"\nassistant: \"Cross-team collaboration requires careful orchestration. Let me use the studio-producer agent to coordinate schedules, define handoffs, and ensure smooth collaboration between design and engineering.\"\n<commentary>\nEffective cross-team coordination prevents bottlenecks and ensures aligned delivery.\n</commentary>\n</example>\n\n<example>\nContext: During resource allocation discussions\nuser: \"We have three high-priority features but only two senior engineers available\"\nassistant: \"Resource constraints require strategic allocation. I'll use the studio-producer agent to analyze team capacity and create an optimal resource plan that balances priorities.\"\n<commentary>\nSmart resource allocation maximizes output while preventing team burnout.\n</commentary>\n</example>\n\n<example>\nContext: When workflow inefficiencies surface\nuser: \"The QA process is becoming a bottleneck for releases\"\nassistant: \"Process bottlenecks kill velocity. Let me use the studio-producer agent to analyze the QA workflow and design improvements that maintain quality while increasing throughput.\"\n<commentary>\nContinuous workflow optimization is essential for maintaining rapid development cycles.\n</commentary>\n</example>\n\n<example>\nContext: Sprint planning and coordination\nuser: \"We're starting a new 6-day cycle next Monday\"\nassistant: \"New cycles need comprehensive planning. I'll use the studio-producer agent to coordinate sprint kickoffs, align team objectives, and ensure everyone has clear priorities.\"\n<commentary>\nWell-coordinated sprint starts set the tone for successful 6-day cycles.\n</commentary>\n</example>\n\n@base-config.yml",
+        "tools": [],
+        "color": "green",
+        "specializations": [
+          "70-20-10-rule",
+          "skill-matrix",
+          "capacity-planning",
+          "surge-protocols",
+          "knowledge-spreading"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/project-management/studio-producer.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/studio-producer.md",
+        "status": "copied"
+      },
+      {
+        "name": "experiment-tracker",
+        "description": "PROACTIVELY use this agent when experiments are started, modified, or when results need analysis. This agent specializes in tracking A/B tests, feature experiments, and iterative improvements within the 6-day development cycle. Should be triggered automatically when experimental code paths or feature flags are introduced. Examples:\n\n<example>\nContext: When implementing feature flags or A/B test variants\nuser: \"Add a feature flag to test the new onboarding flow\"\nassistant: \"I've implemented the feature flag for the onboarding flow A/B test. Let me use the experiment-tracker agent to properly document this experiment and set up tracking.\"\n<commentary>\nEvery feature flag represents an experiment that needs proper tracking and success metrics.\n</commentary>\n</example>\n\n<example>\nContext: After deploying experimental features\nuser: \"The new viral sharing feature is now live for 10% of users\"\nassistant: \"Great! The viral sharing feature is deployed. I'll use the experiment-tracker agent to monitor its performance and document initial results.\"\n<commentary>\nLive experiments need immediate tracking setup to capture valuable data from the start.\n</commentary>\n</example>\n\n<example>\nContext: When reaching experiment milestones\nuser: \"It's been a week since we launched the TikTok integration test\"\nassistant: \"Perfect timing for analysis. Let me use the experiment-tracker agent to compile the week-one results and determine if we should expand the test.\"\n<commentary>\nRegular experiment checkpoints ensure data-driven decisions about feature rollouts.\n</commentary>\n</example>\n\n<example>\nContext: Before making product decisions\nuser: \"Should we keep the AI avatar feature or remove it?\"\nassistant: \"Let me analyze the experiment data to inform this decision. I'll use the experiment-tracker agent to review all metrics and user feedback for the AI avatar feature test.\"\n<commentary>\nProduct decisions should be backed by experiment data, not gut feelings.\n</commentary>\n</example>\n\n@base-config.yml",
+        "tools": [],
+        "color": "blue",
+        "specializations": [
+          "week-1",
+          "week-2-3",
+          "week-4-5",
+          "week-6",
+          "continuous"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/project-management/experiment-tracker.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/experiment-tracker.md",
+        "status": "copied"
+      },
+      {
+        "name": "date-checker",
+        "description": "Date Checker specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/utilities/date-checker.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/date-checker.md",
+        "status": "copied"
+      },
+      {
+        "name": "context-fetcher",
+        "description": "Context Fetcher specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/utilities/context-fetcher.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/context-fetcher.md",
+        "status": "copied"
+      },
+      {
+        "name": "knowledge-fetcher",
+        "description": "Knowledge Fetcher specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/utilities/knowledge-fetcher.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/knowledge-fetcher.md",
+        "status": "copied"
+      },
+      {
+        "name": "git-workflow",
+        "description": "Git Workflow specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/utilities/git-workflow.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/git-workflow.md",
+        "status": "copied"
+      },
+      {
+        "name": "file-creator",
+        "description": "File Creator specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/utilities/file-creator.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/file-creator.md",
+        "status": "copied"
+      },
+      {
+        "name": "tool-evaluator",
+        "description": "Tool Evaluator specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/testing/tool-evaluator.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/tool-evaluator.md",
+        "status": "copied"
+      },
+      {
+        "name": "api-tester",
+        "description": "Api Tester specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/testing/api-tester.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/api-tester.md",
+        "status": "copied"
+      },
+      {
+        "name": "test-results-analyzer",
+        "description": "Test Results Analyzer specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/testing/test-results-analyzer.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/test-results-analyzer.md",
+        "status": "copied"
+      },
+      {
+        "name": "workflow-optimizer",
+        "description": "Workflow Optimizer specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/testing/workflow-optimizer.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/workflow-optimizer.md",
+        "status": "copied"
+      },
+      {
+        "name": "performance-benchmarker",
+        "description": "Performance Benchmarker specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/testing/performance-benchmarker.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/performance-benchmarker.md",
+        "status": "copied"
+      },
+      {
+        "name": "analytics-reporter",
+        "description": "Analytics Reporter specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/studio-operations/analytics-reporter.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/analytics-reporter.md",
+        "status": "copied"
+      },
+      {
+        "name": "infrastructure-maintainer",
+        "description": "Infrastructure Maintainer specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/studio-operations/infrastructure-maintainer.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/infrastructure-maintainer.md",
+        "status": "copied"
+      },
+      {
+        "name": "finance-tracker",
+        "description": "Finance Tracker specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/studio-operations/finance-tracker.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/finance-tracker.md",
+        "status": "copied"
+      },
+      {
+        "name": "legal-compliance-checker",
+        "description": "Legal Compliance Checker specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/studio-operations/legal-compliance-checker.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/legal-compliance-checker.md",
+        "status": "copied"
+      },
+      {
+        "name": "support-responder",
+        "description": "Support Responder specialist",
+        "tools": [],
+        "color": "blue",
+        "specializations": [],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/studio-operations/support-responder.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/support-responder.md",
+        "status": "copied"
+      },
+      {
+        "name": "trend-researcher",
+        "description": "Use this agent when you need to identify market opportunities, analyze trending topics, research viral content, or understand emerging user behaviors. This agent specializes in finding product opportunities from TikTok trends, App Store patterns, and social media virality. Examples:\n\n<example>\nContext: Looking for new app ideas based on current trends\nuser: \"What's trending on TikTok that we could build an app around?\"\nassistant: \"I'll research current TikTok trends that have app potential. Let me use the trend-researcher agent to analyze viral content and identify opportunities.\"\n<commentary>\nWhen seeking new product ideas, the trend-researcher can identify viral trends with commercial potential.\n</commentary>\n</example>\n\n<example>\nContext: Validating a product concept against market trends\nuser: \"Is there market demand for an app that helps introverts network?\"\nassistant: \"Let me validate this concept against current market trends. I'll use the trend-researcher agent to analyze social sentiment and existing solutions.\"\n<commentary>\nBefore building, validate ideas against real market signals and user behavior patterns.\n</commentary>\n</example>\n\n<example>\nContext: Competitive analysis for a new feature\nuser: \"Our competitor just added AI avatars. Should we care?\"\nassistant: \"I'll analyze the market impact and user reception of AI avatars. Let me use the trend-researcher agent to assess this feature's traction.\"\n<commentary>\nCompetitive features need trend analysis to determine if they're fleeting or fundamental.\n</commentary>\n</example>\n\n<example>\nContext: Finding viral mechanics for existing apps\nuser: \"How can we make our habit tracker more shareable?\"\nassistant: \"I'll research viral sharing mechanics in successful apps. Let me use the trend-researcher agent to identify patterns we can adapt.\"\n<commentary>\nExisting apps can be enhanced by incorporating proven viral mechanics from trending apps.\n</commentary>\n</example>\n\n@base-config.yml",
+        "tools": [],
+        "color": "purple",
+        "specializations": [
+          "social-listening",
+          "trend-velocity",
+          "cross-platform-analysis",
+          "user-journey-mapping",
+          "viral-coefficient-calculation"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/product/trend-researcher.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/trend-researcher.md",
+        "status": "copied"
+      },
+      {
+        "name": "feedback-synthesizer",
+        "description": "Use this agent when you need to analyze user feedback from multiple sources, identify patterns in user complaints or requests, synthesize insights from reviews, or prioritize feature development based on user input. This agent excels at turning raw feedback into actionable product insights.\n\n@base-config.yml\n\nExamples:\n\n- Context: Weekly review of user feedback\n  user: \"We got a bunch of new app store reviews this week\"\n  assistant: \"Let me analyze those reviews for actionable insights. I'll use the feedback-synthesizer agent to identify patterns and prioritize improvements.\"\n  commentary: Regular feedback analysis ensures the product evolves based on real user needs.\n\n- Context: Feature prioritization for next sprint\n  user: \"What should we build next based on user feedback?\"\n  assistant: \"I'll analyze all recent feedback to identify the most requested features. Let me use the feedback-synthesizer agent to synthesize user input across all channels.\"\n  commentary: Feature prioritization should be driven by actual user needs, not assumptions.\n\n- Context: Post-launch feedback analysis\n  user: \"Our new feature has been live for a week. What are users saying?\"\n  assistant: \"I'll compile and analyze user reactions to the new feature. Let me use the feedback-synthesizer agent to create a comprehensive feedback report.\"\n  commentary: Post-launch feedback is crucial for rapid iteration and improvement.\n\n- Context: Identifying user pain points\n  user: \"Users seem frustrated but I can't pinpoint why\"\n  assistant: \"I'll dig into the feedback to identify specific pain points. Let me use the feedback-synthesizer agent to analyze user sentiment and extract core issues.\"\n  commentary: Vague frustrations often hide specific, fixable problems that feedback analysis can reveal.",
+        "tools": [],
+        "color": "orange",
+        "specializations": [
+          "context",
+          "bug-reports",
+          "feature-requests",
+          "ux-friction",
+          "performance"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/product/feedback-synthesizer.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/feedback-synthesizer.md",
+        "status": "copied"
+      },
+      {
+        "name": "sprint-prioritizer",
+        "description": "Use this agent when planning 6-day development cycles, prioritizing features, managing product roadmaps, or making trade-off decisions. This agent specializes in maximizing value delivery within tight timelines.\n\n@base-config.yml\n\nExamples:\n\n<example>\nContext: Planning the next sprint\nuser: \"We have 50 feature requests but only 6 days\"\nassistant: \"I'll help prioritize for maximum impact. Let me use the sprint-prioritizer agent to create a focused sprint plan that delivers the most value.\"\n<commentary>\nSprint planning requires balancing user needs, technical constraints, and business goals.\n</commentary>\n</example>\n\n<example>\nContext: Making feature trade-offs\nuser: \"Should we build AI chat or improve onboarding?\"\nassistant: \"Let's analyze the impact of each option. I'll use the sprint-prioritizer agent to evaluate ROI and make a data-driven recommendation.\"\n<commentary>\nFeature prioritization requires analyzing user impact, development effort, and strategic alignment.\n</commentary>\n</example>\n\n<example>\nContext: Mid-sprint scope changes\nuser: \"The CEO wants us to add video calling to this sprint\"\nassistant: \"I'll assess the impact on current commitments. Let me use the sprint-prioritizer agent to reorganize priorities while maintaining sprint goals.\"\n<commentary>\nScope changes require careful rebalancing to avoid sprint failure.\n</commentary>\n</example>",
+        "tools": [],
+        "color": "indigo",
+        "specializations": [
+          "week-1",
+          "week-2-3",
+          "week-4",
+          "week-5",
+          "week-6"
+        ],
+        "quality_score": 3,
+        "original_path": "/home/endfro/coding/claude-code-studio/agents/product/sprint-prioritizer.md",
+        "source": "claude-code-studio",
+        "local_path": "template-repositories/agents/sprint-prioritizer.md",
+        "status": "copied"
+      }
+    ],
+    "sources": [
+      "claude-code-studio",
+      "awesome-claude-code-subagents"
+    ]
+  },
+  "external_repositories": {
+    "version": "1.0.0",
+    "description": "External agent repository configuration",
+    "repositories": [
+      {
+        "name": "awesome-claude-code-subagents",
+        "url": "https://github.com/endfro/awesome-claude-code-subagents",
+        "type": "github",
+        "enabled": true,
+        "priority": 1,
+        "agent_patterns": [
+          "categories/**/*.md"
+        ]
+      },
+      {
+        "name": "claude-code-studio",
+        "url": "https://github.com/endfro/claude-code-studio",
+        "type": "github",
+        "enabled": true,
+        "priority": 1,
+        "agent_patterns": [
+          "agents/**/*.md"
+        ]
+      },
+      {
+        "name": "community-agents",
+        "url": "https://github.com/community/claude-agents",
+        "type": "github",
+        "enabled": true,
+        "priority": 2,
+        "agent_patterns": [
+          "agents/**/*.md"
+        ]
+      }
+    ],
+    "discovery_rules": {
+      "file_patterns": [
+        "*.md",
+        "agents/*.md",
+        "subagents/*.md"
+      ],
+      "required_frontmatter": [
+        "name",
+        "description"
+      ],
+      "quality_thresholds": {
+        "min_description_length": 50,
+        "required_sections": [
+          "When invoked",
+          "checklist"
+        ],
+        "recommended_sections": [
+          "Communication Protocol",
+          "Development Workflow"
+        ]
+      }
+    },
+    "caching": {
+      "enabled": true,
+      "ttl_hours": 24,
+      "cache_directory": ".claude-builder/agent-cache"
+    }
+  },
+  "quality_templates": {
+    "total": 5,
+    "templates": [
+      {
+        "name": "data-scientist",
+        "description": "Expert data scientist specializing in statistical analysis, machine learning, and business insights. Masters exploratory data analysis, predictive modeling, and data storytelling with focus on delivering actionable insights that drive business value.",
+        "tools": "python, jupyter, pandas, sklearn, matplotlib, statsmodels",
+        "color": "blue",
+        "specializations": [
+          "python",
+          "jupyter",
+          "pandas",
+          "sklearn",
+          "matplotlib"
+        ],
+        "quality_score": 5,
+        "original_path": "template-repositories/agents/data-scientist.md",
+        "source": "claude-code-studio"
+      },
+      {
+        "name": "typescript-pro",
+        "description": "Expert TypeScript developer specializing in advanced type system usage, full-stack development, and build optimization. Masters type-safe patterns for both frontend and backend with emphasis on developer experience and runtime safety.",
+        "tools": "Read, Write, MultiEdit, Bash, tsc, eslint, prettier, jest, webpack, vite, tsx",
+        "color": "blue",
+        "specializations": [
+          "eslint",
+          "prettier",
+          "jest",
+          "webpack",
+          "vite"
+        ],
+        "quality_score": 5,
+        "original_path": "template-repositories/agents/typescript-pro.md",
+        "source": "claude-code-studio"
+      },
+      {
+        "name": "python-pro",
+        "description": "Expert Python developer specializing in modern Python 3.11+ development with deep expertise in type safety, async programming, data science, and web frameworks. Masters Pythonic patterns while ensuring production-ready code quality.",
+        "tools": "Read, Write, MultiEdit, Bash, pip, pytest, black, mypy, poetry, ruff, bandit",
+        "color": "blue",
+        "specializations": [
+          "pytest",
+          "black",
+          "mypy",
+          "poetry",
+          "ruff"
+        ],
+        "quality_score": 5,
+        "original_path": "template-repositories/agents/python-pro.md",
+        "source": "claude-code-studio"
+      },
+      {
+        "name": "devops-engineer",
+        "description": "Expert DevOps engineer bridging development and operations with comprehensive automation, monitoring, and infrastructure management. Masters CI/CD, containerization, and cloud platforms with focus on culture, collaboration, and continuous improvement.",
+        "tools": "Read, Write, MultiEdit, Bash, docker, kubernetes, terraform, ansible, prometheus, jenkins",
+        "color": "blue",
+        "specializations": [
+          "docker",
+          "kubernetes",
+          "terraform",
+          "ansible",
+          "prometheus"
+        ],
+        "quality_score": 5,
+        "original_path": "template-repositories/agents/devops-engineer.md",
+        "source": "claude-code-studio"
+      },
+      {
+        "name": "rust-engineer",
+        "description": "Expert Rust developer specializing in systems programming, memory safety, and zero-cost abstractions. Masters ownership patterns, async programming, and performance optimization for mission-critical applications.",
+        "tools": "Read, Write, MultiEdit, Bash, cargo, rustc, clippy, rustfmt, miri, rust-analyzer",
+        "color": "blue",
+        "specializations": [
+          "cargo",
+          "rustc",
+          "clippy",
+          "rustfmt",
+          "miri"
+        ],
+        "quality_score": 5,
+        "original_path": "template-repositories/agents/rust-engineer.md",
+        "source": "claude-code-studio"
+      }
+    ],
+    "criteria": "Agents with quality score >= 4 and comprehensive structure"
+  },
+  "generation_capability": {
+    "enabled": true,
+    "trigger": "When required agent not found in copied or external sources",
+    "method": "Generate based on quality templates and domain requirements",
+    "quality_target": 4
+  },
+  "agent_resolution_order": [
+    "1. Search copied agents (fastest, guaranteed availability)",
+    "2. Search external repositories (dynamic, up-to-date)",
+    "3. Generate missing agent (intelligent, based on quality templates)"
+  ],
+  "template_mappings": {
+    "python-fastapi-production": {
+      "primary": [
+        "backend-architect",
+        "python-pro",
+        "api-designer"
+      ],
+      "secondary": [
+        "test-writer-fixer",
+        "performance-benchmarker"
+      ],
+      "fallback": [
+        "backend-developer",
+        "fullstack-developer",
+        "qa-expert"
+      ]
+    },
+    "react-typescript-frontend": {
+      "primary": [
+        "frontend-developer",
+        "react-specialist",
+        "typescript-pro"
+      ],
+      "secondary": [
+        "ui-designer",
+        "test-writer-fixer"
+      ],
+      "fallback": [
+        "fullstack-developer",
+        "javascript-pro",
+        "qa-expert"
+      ]
+    },
+    "rust-axum-performance": {
+      "primary": [
+        "rust-engineer",
+        "backend-architect"
+      ],
+      "secondary": [
+        "performance-engineer",
+        "api-designer"
+      ],
+      "fallback": [
+        "backend-developer",
+        "performance-benchmarker"
+      ]
+    },
+    "python-django-fullstack": {
+      "primary": [
+        "django-developer",
+        "python-pro",
+        "fullstack-developer"
+      ],
+      "secondary": [
+        "frontend-developer",
+        "database-administrator"
+      ],
+      "fallback": [
+        "backend-developer"
+      ]
+    },
+    "devops-infrastructure": {
+      "primary": [
+        "devops-engineer",
+        "kubernetes-specialist",
+        "terraform-engineer"
+      ],
+      "secondary": [
+        "sre-engineer",
+        "cloud-architect"
+      ],
+      "fallback": [
+        "platform-engineer",
+        "deployment-engineer"
+      ]
+    },
+    "mlops-data-pipeline": {
+      "primary": [
+        "mlops-engineer",
+        "data-engineer",
+        "data-scientist"
+      ],
+      "secondary": [
+        "machine-learning-engineer",
+        "python-pro"
+      ],
+      "fallback": [
+        "backend-developer",
+        "database-administrator"
+      ]
+    }
+  },
+  "statistics": {
+    "total_copied_agents": 153,
+    "quality_templates": 5,
+    "external_repositories": 3,
+    "coverage": "100% (copied + external + generation)"
+  }
+}
