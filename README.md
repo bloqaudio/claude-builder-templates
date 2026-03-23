@@ -1,6 +1,6 @@
 # Claude Builder Official Templates
 
-This repository contains the official template collection for [Claude Builder](https://github.com/quinnoshea/claude_builder) - the Universal Claude Code Environment Generator.
+This repository contains the official template collection for [Claude Builder](https://github.com/bloqaudio/claude_builder) - the Universal Claude Code Environment Generator.
 
 ## 🎯 Purpose
 
@@ -108,16 +108,16 @@ Templates are continuously updated with:
 ## 🤝 Contributing
 
 While this is the official repository, community contributions are welcome through:
-- [Community Templates Repository](https://github.com/quinnoshea/claude-builder-community)
+- [Community Templates Repository](https://github.com/bloqaudio/claude-builder-community)
 - Feature requests and suggestions
 - Agent effectiveness feedback
 - Coordination pattern improvements
 
 ## 📖 Documentation
 
-- [Claude Builder Documentation](https://github.com/quinnoshea/claude_builder#readme)
-- [Agent Orchestration Guide](https://github.com/quinnoshea/claude_builder/blob/main/docs/agent-orchestration.md)
-- [Template Development Guide](https://github.com/quinnoshea/claude_builder/blob/main/docs/template-development.md)
+- [Claude Builder Documentation](https://github.com/bloqaudio/claude_builder#readme)
+- [Agent Orchestration Guide](https://github.com/bloqaudio/claude_builder/blob/main/docs/agent-orchestration.md)
+- [Template Development Guide](https://github.com/bloqaudio/claude_builder/blob/main/docs/template-development.md)
 
 ## 📜 License
 
